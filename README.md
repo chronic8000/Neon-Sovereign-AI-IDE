@@ -79,23 +79,23 @@ Neon Sovereign runs this entire structure autonomously, in real-time, on your ma
 
 ```
 You give a task
-       ↓
+        ↓
 Architect designs the system → produces a JSON Task DAG
-       ↓
+        ↓
 Kahn's Algorithm calculates optimal parallel execution order
-       ↓
+        ↓
 Specialist Developers execute workstreams in parallel
-       ↓
+        ↓
 Sentinel Auditor independently reviews every output (adversarially)
-       ↓
+        ↓
 Forge Master handles cross-compilation, build scripts, environments
-       ↓
+        ↓
 Binary Analyst + Network Scout verify at silicon and protocol level
-       ↓
+        ↓
 Crucible Shadow Buffer compiles and verifies before touching disk
-       ↓
+        ↓
 Sovereignty Gate presents changes for your approval
-       ↓
+        ↓
 You accept or reject. Nothing ships without your sign-off.
 ```
 
@@ -149,7 +149,6 @@ Neon Sovereign supports multiple local and hybrid providers. By default, it prio
 * **Ollama (Primary)**: Deeply integrated via a native C++ bridge. Supports automatic retries and failover for transient inference failures.
 * **llama.cpp (Integrated)**: The zero-copy neural bridge for direct VRAM-resident inference.
 * **Agents SDK**: A hybrid bridge allowing delegation of complex sub-tasks to specialized autonomous agents.
-```
 
 **WSL (Linux Cross-Compile Layer)**
 ```bash
@@ -203,6 +202,7 @@ telemetry_enabled      = true
 
 > **Dynamic VRAM Scaling:** On launch, Neon Sovereign probes the GPU topology. If detected VRAM is insufficient for the static `neural.toml` budget, the system automatically recalibrates `max_concurrent_agents` and `inference_retry_limit` in the UI to ensure stability.
 
+```toml
 [compilation_mode]
 # Automatically engaged when build_project is active
 inference_batch_scale = 0.5   # Halve inference batch size during compile
@@ -294,6 +294,8 @@ The system's intelligence does not begin with the LLM. Fast, deterministic C++ a
 * **Tree-sitter Complexity Router (`ASTContextManager`)** — Cyclomatic complexity > 15 automatically escalates to the 26B Architect. Simpler tasks route to 2B models. Zero wasted VRAM on trivial work. Works across any Tree-sitter-supported language grammar.
 * **BM25/TF-IDF Memory (`ProjectLedger`)** — Historical fixes stored in SQLite, retrieved via a native C++ BM25 ranker. O(1) lookup. No vector embeddings. No GPU cost. Learns your codebase, your toolchains, your recurring failure patterns.
 * **Semantic Decay & Context Augmentation (`ContextCompactor`)** — As the task window fills, the system generates "Compactor Packets" that preserve critical structural AST signatures while decaying less relevant logs. This ensures the 26B Architect always has a mathematically dense view of the project state.
+    * **Muscle Fingerprinting**: If logic blocks exceed 2KB, the system compresses them into semantic fingerprints, retaining only high-relevance signatures to maintain performance.
+    * **Decay-Weighted Architectural Facts**: Historical knowledge is retrieved using a decay-weighted priority algorithm ($\frac{\text{priority}}{1 + \lambda \times \text{time\_diff}}$), ensuring context windows remain focused on fresh, relevant data.
 
 ### 🐝 The Infinite Swarm — Role-Locked Specialisation
 
@@ -312,33 +314,33 @@ A dynamically pooling, horizontally scaled engineering company (`m_agent_pool` i
 
 Neon Sovereign is not a static UI; it is a reconfigurable agential organism. The mode you select dictates how the AI's "Brain" (logic) and "Hands" (tool usage) behave:
 
-*   **CHAT (Brainstorming & Architecture)**: 
-    *   **The Brain**: Consultant mode. The AI provides prose, architectural theory, and high-level design patterns.
-    *   **The Hands**: **Interdicted**. Tool usage is suppressed at the hardware level, ensuring a safe conversation space without accidental file mutations.
-*   **BUILD (Autonomous Construction)**: 
-    *   **The Brain**: Lead Engineer mode. Triggers the Swarm to generate a Task DAG and begin parallelised construction.
-    *   **The Hands**: Full agential autonomy. The swarm can search, read, write, and execute across the workspace.
-*   **DEBUG (Forensic Troubleshooting)**: 
-    *   **The Brain**: Forensic Auditor mode. Prioritizes the Sentinel and Binary Analyst roles to find the "Crime Scene" in logs or binary traces.
-    *   **The Hands**: Precision execution. The AI uses its hands specifically to set breakpoints, inspect memory, and analyze terminal failures.
+* **CHAT (Brainstorming & Architecture)**: 
+    * **The Brain**: Consultant mode. The AI provides prose, architectural theory, and high-level design patterns.
+    * **The Hands**: **Interdicted**. Tool usage is suppressed at the hardware level, ensuring a safe conversation space without accidental file mutations.
+* **BUILD (Autonomous Construction)**: 
+    * **The Brain**: Lead Engineer mode. Triggers the Swarm to generate a Task DAG and begin parallelised construction.
+    * **The Hands**: Full agential autonomy. The swarm can search, read, write, and execute across the workspace.
+* **DEBUG (Forensic Troubleshooting)**: 
+    * **The Brain**: Forensic Auditor mode. Prioritizes the Sentinel and Binary Analyst roles to find the "Crime Scene" in logs or binary traces.
+    * **The Hands**: Precision execution. The AI uses its hands specifically to set breakpoints, inspect memory, and analyze terminal failures.
 
 ### 🪟 Sovereign MDI (Program Manager Architecture)
 
 To maintain a focused engineering workflow while handling massive multi-tasking, Neon Sovereign utilizes a **Sovereign MDI (Multiple Document Interface)**. Inspired by the Windows 3.1 Program Manager, every major tool (Editor, Hive, Terminal, Lab) is a child window "forced" inside the main application frame.
 
-*   **Boundary Locking**: MDI child windows cannot be dragged outside the coordinate space of the IDE, ensuring your workspace remains cohesive.
-*   **Z-Order Promotion**: Switching agential intent modes automatically promotes the relevant tool windows to the front (e.g., bringing the Hive Mind Hub to the top when switching to BUILD).
-*   **Deterministic Docking**: Windows can be snapped to 60px "Liquid Glass" zones (Left, Right, Bottom) or floated for custom window arrangements.
+* **Boundary Locking**: MDI child windows cannot be dragged outside the coordinate space of the IDE, ensuring your workspace remains cohesive.
+* **Z-Order Promotion**: Switching agential intent modes automatically promotes the relevant tool windows to the front (e.g., bringing the Hive Mind Hub to the top when switching to BUILD).
+* **Deterministic Docking**: Windows can be snapped to 60px "Liquid Glass" zones (Left, Right, Bottom) or floated for custom window arrangements.
 
 ### 🧬 Neon Sovereign SDK — Native Autonomous Nervous System
 
 The defunct, third-party `agents-cpp-sdk` binary has been purged and replaced with a **fully native C++20 sovereign reconstruction**. The SDK is no longer an external dependency; it is the nervous system of the IDE.
 
-*   **Proprioceptive Agents**: Agents observe local CPU/GPU/VRAM vitals via `SysProbe` to modulate reasoning tier and task complexity in real-time.
-*   **Proactive SIMD Compaction**: Integrated `SimdDispatcher` (AVX-512/VNNI) prunes and compresses context packets using neural-pass ranking, ensuring LLMs receive only high-fidelity AST fragments.
-*   **Speculative Tree Search**: The `TreeSearchOrchestrator` manages parallel "What-If" branches, executing a "Speculative Shootout" to determine the optimal architectural path before committing changes.
-*   **Forensic Memory (Autopsy)**: Failed branches are not discarded. The `CrashManager` and `Analyst` perform a forensic autopsy on every failure, persisting the "Crime Scene" into the `ProjectLedger` as a negative sample for future speculative reasoning.
-*   **NUMA-Aware Core Pinning**: The SDK formalizes role-based hardware affinity. The **Lead Architect** is locked to high-performance P-cores with dedicated cache lanes, while **Sentinel** auditors are distributed across E-cores to preserve user UI responsiveness.
+* **Proprioceptive Agents**: Agents observe local CPU/GPU/VRAM vitals via `SysProbe` to modulate reasoning tier and task complexity in real-time.
+* **Proactive SIMD Compaction**: Integrated `SimdDispatcher` (AVX-512/VNNI) prunes and compresses context packets using neural-pass ranking, ensuring LLMs receive only high-fidelity AST fragments.
+* **Speculative Tree Search**: The `TreeSearchOrchestrator` manages parallel "What-If" branches, executing a "Speculative Shootout" to determine the optimal architectural path before committing changes.
+* **Forensic Memory (Autopsy)**: Failed branches are not discarded. The `Analyst` and `TreeSearchOrchestrator` work together to record speculative branch failures as **"forensic thoughts"** in the `ProjectLedger`, providing a deep level of error recovery and autopsy-driven learning.
+* **NUMA-Aware Core Pinning**: The SDK formalizes role-based hardware affinity. The **Lead Architect** is locked to high-performance P-cores with dedicated cache lanes, while **Sentinel** auditors are distributed across E-cores to preserve user UI responsiveness.
 
 ---
 
@@ -360,6 +362,7 @@ Every iteration is bounded. Stagnation (>3 retries on the same failure) triggers
 
 * **Slint UI + DirectX/Vulkan** — 120FPS "Liquid Glass" native interface. Zero Electron. Zero Chromium.
 * **Skip-List Rope Engine** — O(log n) edits, microsecond latency on 100MB+ files.
+* **Ghost Fix Engine**: The system utilizes a `GhostFixEngine` initialized in `main.cpp` to provide **"Ghost Text" visualization** of proposed agentic fixes within the `RopeEditor`. This allows users to preview and "Tab Accept" AI changes before they are committed.
 * **SIMD Dispatcher** — Real-time CPU feature detection. Automatically dispatches rope operations and search kernels to **AVX2** or **AVX-512** instruction sets based on host silicon.
 * **Zero-Copy Neural Bridge** — Native `llama.cpp` integration. VRAM-resident inference. Zero HTTP/IPC overhead.
 * **Executive Scheduler (Governor)** — Samples `SysProbe` at 120FPS. If CPU/GPU load exceeds 90%, the Swarm is throttled to protect the operator's UI performance budget.
@@ -426,7 +429,7 @@ All destructive actions require human approval. The Blackboard enforces a **Tran
 ### ⚖️ State-Lock Hashing & Transactional AST Locks
 Detects human edits instantly, forces safe re-evaluation, and prevents stale agent context from causing divergent writes into code you've already changed. The Blackboard enforces a **Transactional AST Locking Model** — parallel agents cannot mutate overlapping syntax nodes. Race conditions between agents are impossible by construction.
 
-### 🛡️ Hardware-Level Security
+### 🛡️ Hardware-Level Architecture
 * **Encrypted Secret Store** — All API keys, SSH credentials, and environment secrets are encrypted at rest using OS-native security providers (NCrypt/DPAPI) and managed via the `SecretStore`.
 * **Epoch-Based Consistency** — Uses an **Epoch Manager** for lock-free consistency across the project index and AST tree. The swarm can perform massive structural updates without stalling the operator's editor thread.
 
@@ -444,6 +447,7 @@ Detects human edits instantly, forces safe re-evaluation, and prevents stale age
 ## 🧪 Systems Laboratory
 
 ### 🔬 Silicon Perception Labs
+* **Multimodal Visual Audits (Silicon Retina)**: The `SentinelProcessor` utilizes a VLM-driven **Silicon Retina** to perform aesthetic and spatial geometry audits. By capturing viewport screenshots and analyzing UI semantic trees, the system detects overlapping text, contrast violations, or layout "atrocities" before they reach the user.
 * **Binary Lab** — `analyze_binary` bridges Ghidra Headless into `ToolRegistry`. The Binary Analyst verifies vectorisation, instruction scheduling, and memory layout at the silicon level — for any architecture Ghidra supports: x86, ARM, RISC-V, MIPS, PowerPC, SPARC.
 * **Network Lab** — `capture_network` bridges TShark for autonomous packet inspection, hex-dump parsing, and cryptographic handshake validation across any protocol.
 * **Telemetry Mode** — ETW real-time cache miss and branch prediction tracking. VRAM Stacking visualiser for live GPU pressure monitoring.
@@ -470,7 +474,7 @@ Atomic, permission-gated tools: `read_file`, `search`, `patch`, `build_project`,
 
 ## 🌐 Decentralised Collaboration — C-Lab Zero
 
-* **Post-Quantum Security** — X25519 + ML-KEM-768 hybrid encryption, implemented in `MeshPeer`
+* **Post-Quantum Security** — X25519 + ML-KEM-768 hybrid encryption, implemented in `MeshPeer`.
 * **CRDT Synchronisation** — Conflict-free editing across humans and AI agents via Loro + Fugue, wired in `SyncManager`. Sync does not operate on raw text diffs — it operates on **AST node deltas** with state-lock hashes attached. Every packet transmitted over the mesh encodes a node mutation, its pre/post state, and the lock hash of the node at the time of the edit. A remote peer receiving a sync packet validates the hash against its own Blackboard state before applying it. If the node is locked by a local agent, the mutation is rejected and queued for re-evaluation — never merged blindly. Raw text line numbers are never transmitted; they are stale the moment any agent touches the tree. Multiple humans and multiple agent swarms can collaborate on the same codebase simultaneously without structural collision.
 * **Sovereign Identity** — BIP39 12-word identity generation, fully offline. No accounts. No registration. No external auth providers. Your identity is a wordlist you own.
 
@@ -529,5 +533,4 @@ This is not a smarter copilot.
 
 **This is a software house. On your machine. Under your control.**
 
-> If your IDE is built on Electron, constrained by plugins, driven by chat, and locked to one ecosystem —
-> it is already obsolete.
+> If your IDE is built on Electron, constrained by plugins, driven by chat, and locked to one ecosystem — it is already obsolete.
