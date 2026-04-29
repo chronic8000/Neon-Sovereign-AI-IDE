@@ -308,7 +308,39 @@ A dynamically pooling, horizontally scaled engineering company (`m_agent_pool` i
 | **The Network Scout** | TShark — packet inspection, protocol validation | Network scope only |
 | **The Sentinel Auditor (2B)** | Adversarial, independent code review | Auditing only — never generates code |
 
-The Sentinel's independence is structural, not instructional. It does not share a context window with the Developers. It receives their output cold and reviews it the way a hostile senior engineer would.
+### 🎮 Agential Intent Modes (The Brain & The Hands)
+
+Neon Sovereign is not a static UI; it is a reconfigurable agential organism. The mode you select dictates how the AI's "Brain" (logic) and "Hands" (tool usage) behave:
+
+*   **CHAT (Brainstorming & Architecture)**: 
+    *   **The Brain**: Consultant mode. The AI provides prose, architectural theory, and high-level design patterns.
+    *   **The Hands**: **Interdicted**. Tool usage is suppressed at the hardware level, ensuring a safe conversation space without accidental file mutations.
+*   **BUILD (Autonomous Construction)**: 
+    *   **The Brain**: Lead Engineer mode. Triggers the Swarm to generate a Task DAG and begin parallelised construction.
+    *   **The Hands**: Full agential autonomy. The swarm can search, read, write, and execute across the workspace.
+*   **DEBUG (Forensic Troubleshooting)**: 
+    *   **The Brain**: Forensic Auditor mode. Prioritizes the Sentinel and Binary Analyst roles to find the "Crime Scene" in logs or binary traces.
+    *   **The Hands**: Precision execution. The AI uses its hands specifically to set breakpoints, inspect memory, and analyze terminal failures.
+
+### 🪟 Sovereign MDI (Program Manager Architecture)
+
+To maintain a focused engineering workflow while handling massive multi-tasking, Neon Sovereign utilizes a **Sovereign MDI (Multiple Document Interface)**. Inspired by the Windows 3.1 Program Manager, every major tool (Editor, Hive, Terminal, Lab) is a child window "forced" inside the main application frame.
+
+*   **Boundary Locking**: MDI child windows cannot be dragged outside the coordinate space of the IDE, ensuring your workspace remains cohesive.
+*   **Z-Order Promotion**: Switching agential intent modes automatically promotes the relevant tool windows to the front (e.g., bringing the Hive Mind Hub to the top when switching to BUILD).
+*   **Deterministic Docking**: Windows can be snapped to 60px "Liquid Glass" zones (Left, Right, Bottom) or floated for custom window arrangements.
+
+### 🧬 Neon Sovereign SDK — Native Autonomous Nervous System
+
+The defunct, third-party `agents-cpp-sdk` binary has been purged and replaced with a **fully native C++20 sovereign reconstruction**. The SDK is no longer an external dependency; it is the nervous system of the IDE.
+
+*   **Proprioceptive Agents**: Agents observe local CPU/GPU/VRAM vitals via `SysProbe` to modulate reasoning tier and task complexity in real-time.
+*   **Proactive SIMD Compaction**: Integrated `SimdDispatcher` (AVX-512/VNNI) prunes and compresses context packets using neural-pass ranking, ensuring LLMs receive only high-fidelity AST fragments.
+*   **Speculative Tree Search**: The `TreeSearchOrchestrator` manages parallel "What-If" branches, executing a "Speculative Shootout" to determine the optimal architectural path before committing changes.
+*   **Forensic Memory (Autopsy)**: Failed branches are not discarded. The `CrashManager` and `Analyst` perform a forensic autopsy on every failure, persisting the "Crime Scene" into the `ProjectLedger` as a negative sample for future speculative reasoning.
+*   **NUMA-Aware Core Pinning**: The SDK formalizes role-based hardware affinity. The **Lead Architect** is locked to high-performance P-cores with dedicated cache lanes, while **Sentinel** auditors are distributed across E-cores to preserve user UI responsiveness.
+
+---
 
 ### 🔄 The High-Throughput Swarm Engine
 
