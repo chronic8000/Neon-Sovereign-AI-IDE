@@ -85,6 +85,8 @@ Intelligence begins with C++ algorithms before any LLM is invoked:
 
 Neon Sovereign is built to be a **sovereign workstation**: weights run **on your machine** (see [Provision Neural Weights](#provision-neural-weights)), not rented from a vendor API. That is not a compromise—it is the architectural point: **your context never leaves the box**, and the swarm still behaves like a serious agent product, not a sidebar chat.
 
+**Orthogonal audits**: the **Logic** model (Gemma-4–class for architecture and codegen) and the **Sentinel / Speed** model used for critique and fast repairs must be **different families**—by doctrine **Qwen for Sentinel**, never a second Gemma-4 alongside the core (see provisioning above).
+
 **Chat panel vs. gateway paths**
 
 | Mode (`AgentialIntent`) | Neural transport | Notes |
@@ -119,7 +121,7 @@ Useful when navigating `src/`:
 
 | Area | Role |
 | :--- | :--- |
-| **`AIGateway`** | Local inference: `call_local_inference` (generate-style bridge), `call_local_inference_messages` (`/api/chat`, SDK + CHAT UI), `call_winhttp` / **`call_winhttp_messages`** (tool loop for BUILD/DEBUG `ask()`). Neural lane mutex shared across generate/chat paths. |
+| **`AIGateway`** | Local inference: `call_local_inference` (generate-style bridge), `call_local_inference_messages` (`/api/chat`, SDK + CHAT UI), `call_winhttp` / **`call_winhttp_messages`** (tool loop for BUILD/DEBUG `ask()`). Concurrency is governed by **`m_active_inference_count`** / neural governor slots—not a global WinHTTP mutex. |
 | **`SwarmChat` bridge** | `post`, structured segments (`tool_call` / `tool_result` / `agent_thought`), optional **ledger** mirror, **operator steering** ledger hook. |
 | **`BlackboardManager`** | Task DAG, **`enqueue_operator_steering`** / drain into prompts, gossip hooks. |
 | **`HiveViewModel` / Slint `ChatMessage`** | Composer-style rows (`kind` 20–22), fold toggles on tool cards, **retry_slug** for chips → **`AppActions.retry_chat_action`**. |
@@ -134,12 +136,27 @@ A hybrid of the classic Program Manager and modern IDEs. Built on a **120FPS Sli
 Captures and cleans all PTY output (ANSI noise removed) into a searchable SQLite ledger. Agents use this to "look back" at previous build failures and environment changes, eliminating the "context reset" issue of standard terminals.
 
 ### 🐝 The Silicon Leash (Resource Governor)
-To prevent GPU saturation, Neon Sovereign implements static VRAM partitioning:
-*   **Inference**: 18GB (Architect + Sentinel).
-*   **Renderer**: 2GB (Vulkan/DirectX).
-*   **SpiceViewport**: 2GB (QEMU/VNC observability).
-*   **System Reserve**: 2GB.
-The governor enforces these budgets before inference begins, preventing OOM crashes.
+VRAM use is **measured and capped**, not a single fixed “18 GB inference slice.” The runtime combines **hardware detection**, **process limits**, **phase-aware loading**, and **math for context windows**.
+
+**Who gets to use the GPU**
+
+- **`SysProbe::get_gpus`** (`sys_probe.cpp`) keeps adapters that report **≥ 4 GB** dedicated VRAM (marketing “4 GB” chips that report slightly above 4 GB still qualify). Smaller adapters are skipped and startup falls back to **`OLLAMA_NUM_GPU=0`** / software paths (`main.cpp`).
+
+**How much VRAM Ollama may use**
+
+- **`OLLAMA_VRAM_LIMIT`** is set to **`max(0, total_vram − 4 GB)`** for the chosen GPU (`main.cpp`): a **4 GB OS/desktop reserve** is subtracted from reported dedicated VRAM. Example: **8 GB** total → **~4 GB** budget for weights + KV; **16 GB** → **~12 GB**. An **exactly 4 GB** card often yields **0 B** headroom after reserve—usable mostly via **CPU**, lighter pulls, or drivers that report **slightly more than 4 GB**.
+
+**Why laptop-class GPUs are viable**
+
+- **Automatic tiering** (`sovereign_provisioner.cpp`): VRAM bucket **≥ 20 GB** → larger Architect + Qwen 7B; **≥ 12 GB** → 9B-class Architect + Qwen 7B; **&lt; 12 GB** (includes typical **8 GB** laptops) → **Gemma-4 E4B**–class Architect + **Qwen 2.5 Coder 1.5B** Sentinel—small critic/audit models aligned with tight VRAM.
+
+- **Audit hot-swap** (`swarm_controller.cpp`): when fabrication is finished and Sentinel work is pending, the swarm **drains inference**, **evicts** Logic-tier weights (and Gemma **`-drafter`** when applicable), then **locks** the Sentinel model. That keeps VRAM pressure closer to **one large logical stack per phase**, instead of permanently pinning two full stacks.
+
+- **Context budget**: **`calculate_optimal_context_budget`** (`sys_probe.cpp`) derives **`num_ctx`** from pooled VRAM minus weight and reserve heuristics (floors at **2048** tokens when memory is tight).
+
+**Parallelism vs. resident weights**
+
+- Overlapping calls are bounded by the gateway governor (**`m_max_concurrency`**, default **2** in `gateway.hpp`). That limits simultaneous **requests**, not “two full 30B copies”—combined footprint still follows provisioner + hot-swap + **`OLLAMA_VRAM_LIMIT`**.
 
 ---
 
@@ -161,7 +178,10 @@ Any tactical override is injected as a High-Priority Correction into the Ephemer
 
 ## ⚠️ Current Limitations (Active Alpha)
 Neon Sovereign is an active engineering frontier. While the architecture is designed for full autonomy, users should note the following constraints:
-*   **VRAM Intensity**: 24GB+ VRAM is recommended for the full Architect/Sentinel/Retina swarm.
+*   **GPU VRAM (what “supported” means here)**:
+    *   **Comfort zone** (**24 GB+**): Large Architect tiers, Retina/VLM workflows, and headroom for long contexts—closest to the “full workstation” story.
+    *   **Supported daily-driver / laptop class** (**8 GB+** discrete): Explicit **lightweight provisioner path** (E4B-scale Logic + **Qwen 1.5B** Sentinel), **`OLLAMA_VRAM_LIMIT`** derived from detected VRAM, and **audit hot-swap** so you are not paying two full stacks at peak forever.
+    *   **Minimum enumeration floor** (**≥ 4 GB** reported dedicated): GPUs below **4 GB** are not selected as qualified silicon; **~4 GB** cards may show **zero** bytes left after the **4 GB** OS reserve—expect **CPU-heavy** behavior unless you stay on tiny models.
 *   **Target Stability**: C/C++ and Rust are Tier-1 targets. Web and Mobile support are currently in active stabilization.
 *   **Active Iteration**: Complex UI frameworks may require multiple iteration cycles. Some manual intervention may be required for exotic build environments.
 *   **Untested Status**: The GUI is currently in a "Beta-Test" state. Expect rapid updates and breaking structural changes.
@@ -175,6 +195,7 @@ Neon Sovereign is an active engineering frontier. While the architecture is desi
 *   **Visual Studio 2022** (Desktop C++ workload)
 *   **CMake ≥ 3.28**, **Git**, **Rust**
 *   **WSL2** with Ubuntu 22.04+ (Vulkan 1.3 support)
+*   **GPU**: **Discrete ≥ 8 GB** VRAM is the practical target for native laptop use with the auto light tier; **≥ 4 GB** may be detected but often has little usable headroom after the governor reserve (details under **The Silicon Leash** earlier in this readme).
 
 ### Build (Windows Native)
 ```powershell
@@ -192,9 +213,96 @@ cmake --build build/linux
 
 ### Provision Neural Weights
 Neon Sovereign is **air-gapped by default**. You own the weights.
-1.  **Architect**: Gemma-4 26B MoE (Q4_K_M).
-2.  **Sentinel**: Gemma-4 E2B (Q4_K_M).
-Configure these in `config/neural.toml`. The system will automatically recalibrate `max_concurrent_agents` based on detected VRAM.
+1.  **Architect / core logic tier**: **Gemma-4** family (e.g. 26B MoE Q4_K_M)—planning and implementation.
+2.  **Sentinel / Speed tier (critic, peer-style fixes, audits)**: **Qwen** (e.g. **qwen2.5-coder** at a size your VRAM allows)—must **not** be another Gemma-4: paired Gemma models **correlate failures** and amplify hallucinations.
+
+Configure tags in **`config/neural.toml`** (and persisted UI JSON). For **Ollama tag** mode, **`enforce_model_pairing`** in **`config_manager.cpp`** refuses **Gemma-4 + Gemma-4** Logic/Sentinel pairs and rewrites Sentinel to **`qwen2.5-coder:7b-q5_k_m`**. Local **`.gguf` paths** are never rewritten automatically (mixed layouts stay operator-controlled).
+
+**Gateway concurrency** (**`max_concurrent_agents`**, default **2**) is a separate knob from VRAM sizing—it limits overlapping inference workers but does not replace tier selection; tune it in settings when your GPU keeps up or struggles.
+
+---
+
+## 🧪 Headless smoke tests & verification pipeline
+
+Smoke tests exercise the full **Software House** path (Architect DAG → parallel Developers → **Crucible** transactional commits) without the GUI. Archives land under **`<repo-root>/smoke-test/<id>/`** (override parent with `SOVEREIGN_REPO_ROOT`). Each run writes **`smoke_test_swarm.log`**, **`smoke_trace.txt`**, and generated sources.
+
+### Invocation
+
+```powershell
+.\Neon-Sovereign.exe smoke-test "Your engineering brief here"
+.\Neon-Sovereign.exe smoke-test brief "Your engineering brief here"
+.\Neon-Sovereign.exe smoke-test full "Your engineering brief here"
+```
+
+The `brief` / `full` tokens only select the argv shape; they share the same pipeline and validation.
+
+The brief must be **substantive**: rejected if fewer than **3 words** or fewer than **12** non-whitespace characters (prevents meaningless “success” on noise).
+
+**Headless defaults**: smoke-test sets **`SOVEREIGN_LOGIC_MODEL`**, **`SOVEREIGN_SPEED_MODEL`**, and **`SOVEREIGN_SDK_SINGLE_SHOT=1`** for CI stability and throughput (see trace header for resolved values).
+
+**Exit codes**:
+
+| Code | Meaning |
+| :--- | :--- |
+| **`0`** | Final verdict **SUCCESS** (see below). |
+| **`1`** | Smoke finished but verdict **FAILURE** (timeout, stalled/incomplete tasks, missing or **empty** output files). |
+| **`2`** | CLI usage error or brief rejected (too short). |
+
+**SUCCESS** (recomputed at shutdown from the blackboard): seed task **Completed** or **Stalled**, **no** active swarm work, **no** non-seed task stuck outside **Completed**, every **Completed** non-seed task has an **existing, non-empty** file under the smoke workspace (`target_file`), and **at least one** non-seed task completed.
+
+If the DAG is still active when the smoke timeout fires, the archive logs **`Reason: TIMEOUT`** and **`FAILURE`**.
+
+### Crucible: peer review, auto-repair, then Sentinel
+
+Each **`submit_patch`** (Developer → Crucible) runs **inner repair rounds** before the blackboard consumes a **swarm retry**. Order per attempt:
+
+1. **Bracket preflight** (fast SIMD balance). On failure → **Speed-tier** LLM structural fix.
+2. **Peer gate** (optional): another model pass asks for **`PEER_APPROVED`** vs **`PEER_ISSUES`** + bullets; issues feed a **Logic-tier** rewrite *before* Sentinel.
+3. **Sentinel** (`AdversarialEngine::run_critic`): Red Team hypothesis + Speed audit. **Only the `[AUDIT]:` section** is interpreted for approve/reject (the hypothesis line alone cannot false-trigger rejection).
+4. **Shadow verification** (includes the same bracket gate + OMNI-BYPASS promotion path). On failure → Logic-tier fix from the error text.
+
+Only after **all inner rounds** fail does Crucible call **`commit_task(false)`** with **`crucible_auto_repair_exhausted`**. That burns **one** swarm-level retry, not one per gate.
+
+### Full environment list (`smoke_trace.txt` parity)
+
+The first lines of **`smoke_trace.txt`** are stable forensic fields and commentary; **`readme.md`** lists the same items so operators do not have to diff binaries against logs.
+
+**Fixed keys (not environment variables)**
+
+| Trace field | Meaning |
+| :--- | :--- |
+| **`simulation_id`** | Monotonic run folder under `<parent>/smoke-test/<id>/`. |
+| **`cwd`** | Process working directory when the smoke swarm starts. |
+| **`smoke_path`** | Absolute path to this archive (artifacts + logs). |
+| **`SOVEREIGN_LOGIC_MODEL=`** | Raw env value if set; empty string in the trace when unset (GUI sessions typically rely on **`config/neural.toml`** instead). |
+| **`SOVEREIGN_SPEED_MODEL=`** | Same pattern for Speed-tier / Sentinel critic routing. |
+| **`resolved_logic_model`** | Logic-tier tag passed to **`set_model`**: **`getenv("SOVEREIGN_LOGIC_MODEL")`** or fallback **`gemma-4-e2b-it-q4_k_m`**. Standard **`smoke-test`** forces Gemma E2B via **`_putenv`** before load—see **Headless defaults**. |
+| **`resolved_speed_model`** | Speed / Sentinel tag: **`getenv("SOVEREIGN_SPEED_MODEL")`** or fallback **`qwen2.5-coder:1.5b`** in the smoke initializer when unset. **`smoke-test`** normally forces Qwen via **`_putenv`**. If both tiers would resolve to **Gemma-4** Ollama tags, **`enforce_model_pairing`** rewrites Sentinel to **`qwen2.5-coder:7b-q5_k_m`** before **`set_sentinel_model`**. |
+| **`ollama_managed_port`** | From **`ConfigManager`** / settings JSON (default **11435** when managed Ollama is used—not an env var in the trace). |
+
+**Embedded commentary** (copied into the trace for reproducibility)
+
+- **Neon hot-swap**: model evict/lock behavior is governor-gated; see **`startup.log`** for **`[GOVERNOR]`** / **`[SWARM]`** lines.
+- **Developer path**: default SDK posture is **Reason+Act with real tool execution** (`read` / `write` / `execute`); not chat-only.
+- **Throughput mode**: explains **`SOVEREIGN_SDK_SINGLE_SHOT=1`** → `planSingleShotCodegen` (CI/smoke velocity; not the architectural ceiling for interactive work).
+
+**`SOVEREIGN_*` variables** (every name that appears in the trace narrative)
+
+| Variable | Default when unset | Allowed range | Purpose |
+| :--- | :--- | :--- | :--- |
+| **`SOVEREIGN_LOGIC_MODEL`** | From **`config/neural.toml`** via **`ConfigManager`** (smoke overwrites to Gemma E2B before load) | Ollama tag string | Overrides persisted Logic-tier model on startup (`config_manager.cpp`). |
+| **`SOVEREIGN_SPEED_MODEL`** | From **`config/neural.toml`** (smoke overwrites to Qwen 1.5B before load) | Ollama tag string | Overrides Speed-tier / Sentinel routing model on startup. |
+| **`SOVEREIGN_SDK_SINGLE_SHOT`** | off (`0` / unset) | `0` / `1` (any non-empty, non-`0` enables) | **`autonomous_agent_impl`**: one-shot codegen vs full **`planReact`**. Smoke-test **forces `1`** after setting models. |
+| **`SOVEREIGN_REACT_MAX_STEPS`** | `24` | `4`–`128` | Max Reason+Act iterations when single-shot is off. |
+| **`SOVEREIGN_REPO_ROOT`** | (derive from repo detection beside `startup.log`) | filesystem path | Parent directory for **`smoke-test/<id>/`** (`main.cpp`). |
+| **`SOVEREIGN_SMOKE_TIMEOUT_SEC`** | `3600` | `300`–`14400` | Outer poll/wait budget for the smoke harness. |
+| **`SOVEREIGN_ARCHITECT_ASK_TIMEOUT_SEC`** | `1800` | `120`–`7200` | Per-call timeout for Architect **`gateway->ask()`** while producing the JSON DAG (`swarm_controller.cpp`). |
+| **`SOVEREIGN_CRUCIBLE_AUTO_REPAIR_ROUNDS`** | `8` | `1`–`32` | Inner **`submit_patch`** repair rounds before a swarm retry (`crucible.cpp`). |
+| **`SOVEREIGN_PEER_GATE`** | on | set exactly **`0`** to disable | Skip Speed-tier peer review before Sentinel (`crucible.cpp`). |
+
+For normal **GUI** runs, **`SOVEREIGN_LOGIC_MODEL`** and **`SOVEREIGN_SPEED_MODEL`** override the values from **`config/neural.toml`** when those variables are set in the environment at **`ConfigManager::load()`** time (`config_manager.cpp`).
+
+**Pairing guard**: **`AIGateway::set_model`** / **`set_sentinel_model`** apply the same Gemma-4 / Gemma-4 refusal so the live gateway cannot drift into twin-Gemma configuration from the UI alone.
 
 ---
 
@@ -212,7 +320,7 @@ Configure these in `config/neural.toml`. The system will automatically recalibra
 | **Autonomy** | Prompt & Wait | **Set Brief & Walk Away** |
 | **Verification** | User Reviews Diffs | **Shadow Buffer & Silicon Retina** |
 | **Memory** | Transient / Amnesiac | **Persistent SQLite (BM25)** |
-| **Hardware** | Low utilization | **NUMA-Aware Affinity / VRAM Partitioning** |
+| **Hardware** | Low utilization | **NUMA-Aware Affinity / VRAM-aware governor & audit hot-swap** |
 | **Visibility** | Blind to App UI | **SpiceViewport (QEMU/ADB)** |
 
 ---
