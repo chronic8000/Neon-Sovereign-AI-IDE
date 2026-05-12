@@ -1,0 +1,39 @@
+{"event":"blackboard_task_registered","file":"server.cpp","node":"","role":0,"task_id":"TASK-17784079591598072","unix_ts":1778407959}
+{"audit_interval_sec":5,"event":"smoke_seed_task_submitted","simulation_id":78,"task_id":"TASK-17784079591598072","unix_ts":1778407959}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778407960,"wall_i":0}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778407965,"wall_i":5}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778407970,"wall_i":10}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778407975,"wall_i":15}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778407980,"wall_i":20}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778407985,"wall_i":25}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778407990,"wall_i":30}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778407995,"wall_i":35}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408000,"wall_i":40}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408005,"wall_i":45}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408010,"wall_i":50}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408015,"wall_i":55}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408020,"wall_i":60}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408025,"wall_i":65}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408030,"wall_i":70}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408035,"wall_i":75}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408040,"wall_i":80}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408045,"wall_i":85}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408050,"wall_i":90}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408055,"wall_i":95}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408060,"wall_i":100}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408065,"wall_i":105}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408070,"wall_i":110}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408075,"wall_i":115}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408080,"wall_i":120}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408085,"wall_i":125}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408090,"wall_i":130}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408095,"wall_i":135}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408101,"wall_i":140}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408106,"wall_i":145}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408111,"wall_i":150}
+{"byte_length":638,"event":"architect_llm_raw","raw_text":"```json\n[\n  {\n    \"id\": \"task_001\",\n    \"description\": \"Define the core HTTP server structure and request handling logic.\",\n    \"file\": \"server.cpp\",\n    \"dependencies\": [],\n    \"type\": \"core_logic\"\n  },\n  {\n    \"id\": \"task_002\",\n    \"description\": \"Implement structured logging mechanism for request tracking and errors.\",\n    \"file\": \"logger.cpp\",\n    \"dependencies\": [\"task_001\"],\n    \"type\": \"utility\"\n  },\n  {\n    \"id\": \"task_003\",\n    \"description\": \"Implement the main function to initialize the server and start listening.\",\n    \"file\": \"main.cpp\",\n    \"dependencies\": [\"task_001\", \"task_002\"],\n    \"type\": \"entry_point\"\n  }\n]\n```","truncated":false,"unix_ts":1778408113}
+{"event":"architect_json_extract","extract_empty":false,"extracted_len":627,"raw_len":638,"unix_ts":1778408113}
+{"byte_length":516,"dag_json":"[{\"dependencies\":[],\"description\":\"Define the core HTTP server structure and request handling logic.\",\"file\":\"server.cpp\",\"id\":\"task_001\",\"type\":\"core_logic\"},{\"dependencies\":[\"task_001\"],\"description\":\"Implement structured logging mechanism for request tracking and errors.\",\"file\":\"logger.cpp\",\"id\":\"task_002\",\"type\":\"utility\"},{\"dependencies\":[\"task_001\",\"task_002\"],\"description\":\"Implement the main function to initialize the server and start listening.\",\"file\":\"main.cpp\",\"id\":\"task_003\",\"type\":\"entry_point\"}]","event":"architect_parsed_json","truncated":false,"unix_ts":1778408113}
+{"event":"architect_dag_shape","has_nodes_array":false,"nodes_len":0,"unix_ts":1778408113}
+{"event":"architect_dag_exception","extracted_len":627,"raw_len":638,"unix_ts":1778408113,"what":"[json.exception.invalid_iterator.207] cannot use key() for non-object iterators"}
+{"code_len":626,"event":"architect_fallback_code_block","unix_ts":1778408113}

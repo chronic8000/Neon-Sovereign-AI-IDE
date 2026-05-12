@@ -1,0 +1,497 @@
+=== NEON SOVEREIGN SMOKE TEST ARCHIVE ===
+Simulation ID: 77
+Debug: C:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\77/smoke_trace.txt
+Mandate: SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging
+
+EXECUTIVE SYNTHESIS (skipped): proceed from user brief only.
+
+
+HUMAN-IN-THE-LOOP (Staff Mail): When you need design, UX, product, or scope clarification from the operator, call tool staff_mail_post with parameters from (your role, e.g. Architect), subject (short), body (specific questions). This queues in-app mail (Win3.1 Staff Mail window). Post milestone updates the same way so the operator can track how the build is going. Do NOT block work waiting for mail: if there is no reply (e.g. headless smoke), proceed with reasonable defaults and state your assumptions in the artifact or in staff_mail_post as a log.
+
+ARCHITECT: Emit JSON Task DAG only (uuid, file, blocked_by, role). DEVELOPERS: parallel implementation. SENTINEL: orthogonal audit. FULL AUTONOMOUS MODE.
+Start Time: 1778406878
+Idle stall budget: 3600s (SOVEREIGN_SMOKE_TIMEOUT_SEC; pauses while tasks are active)
+
+Progress signals (do not rely on a flat task histogram alone):
+  · [PIPELINE_METRICS] JSON — Crucible / Sentinel / shadow / peer-review counters (also on smoke_trace lines as metrics=…).
+  · [SOFTWARE_HOUSE] — one-word lane snapshot per role (Arch/Dev/Sent/Forge/QA + Peer).
+  · Task lines: activity= current phase; tick≈5s liveness while the worker holds the task.
+  · SDK / Crucible update `activity` with explicit stages (inference, peer gate, Sentinel, shadow).
+  · smoke_debug.ndjson — structured NDJSON (Architect DAG + blackboard + Crucible); SOVEREIGN_SMOKE_TICK_LOG=1 for per-second smoke_poll_tick rows.
+
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":0}
+--- Swarm State Audit [0s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=0s ago tick=1(~5s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":5}
+--- Swarm State Audit [5s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=0s ago tick=2(~10s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":10}
+--- Swarm State Audit [10s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=0s ago tick=3(~15s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":15}
+--- Swarm State Audit [15s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=4(~20s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":20}
+--- Swarm State Audit [20s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=5(~25s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":25}
+--- Swarm State Audit [25s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=6(~30s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":30}
+--- Swarm State Audit [30s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=7(~35s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":35}
+--- Swarm State Audit [35s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=8(~40s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":40}
+--- Swarm State Audit [40s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=9(~45s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":45}
+--- Swarm State Audit [45s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=10(~50s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":50}
+--- Swarm State Audit [50s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=11(~55s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":55}
+--- Swarm State Audit [55s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=12(~60s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":60}
+--- Swarm State Audit [60s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=13(~65s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":65}
+--- Swarm State Audit [65s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=14(~70s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":70}
+--- Swarm State Audit [70s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=15(~75s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":75}
+--- Swarm State Audit [75s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=16(~80s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":80}
+--- Swarm State Audit [80s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=17(~85s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":85}
+--- Swarm State Audit [85s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=18(~90s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":90}
+--- Swarm State Audit [90s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=19(~95s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":95}
+--- Swarm State Audit [95s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=20(~100s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":100}
+--- Swarm State Audit [100s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=21(~105s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":105}
+--- Swarm State Audit [105s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=22(~110s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":110}
+--- Swarm State Audit [110s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=23(~115s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":115}
+--- Swarm State Audit [115s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=24(~120s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":120}
+--- Swarm State Audit [120s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=25(~125s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":125}
+--- Swarm State Audit [125s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=26(~130s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":130}
+--- Swarm State Audit [130s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=27(~135s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":135}
+--- Swarm State Audit [135s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=28(~140s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":140}
+--- Swarm State Audit [140s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=29(~145s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":145}
+--- Swarm State Audit [145s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=30(~150s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":150}
+--- Swarm State Audit [150s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=31(~155s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":155}
+--- Swarm State Audit [155s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=32(~160s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":160}
+--- Swarm State Audit [160s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=33(~165s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":165}
+--- Swarm State Audit [165s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=34(~170s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":170}
+--- Swarm State Audit [170s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=35(~175s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":175}
+--- Swarm State Audit [175s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=36(~180s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":180}
+--- Swarm State Audit [180s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=0 HB=1s ago tick=37(~185s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":185}
+--- Swarm State Audit [185s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=50 HB=1s ago tick=38(~190s) activity="Cognitive Synthesis (50 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":190}
+--- Swarm State Audit [190s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=50 HB=2s ago tick=39(~195s) activity="Cognitive Synthesis (50 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":195}
+--- Swarm State Audit [195s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=50 HB=2s ago tick=40(~200s) activity="Cognitive Synthesis (50 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":200}
+--- Swarm State Audit [200s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=50 HB=2s ago tick=41(~205s) activity="Cognitive Synthesis (50 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":205}
+--- Swarm State Audit [205s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=100 HB=2s ago tick=42(~210s) activity="Cognitive Synthesis (100 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":210}
+--- Swarm State Audit [210s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=100 HB=2s ago tick=43(~215s) activity="Cognitive Synthesis (100 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":215}
+--- Swarm State Audit [215s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=100 HB=2s ago tick=44(~220s) activity="Cognitive Synthesis (100 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":220}
+--- Swarm State Audit [220s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=150 HB=1s ago tick=45(~225s) activity="Cognitive Synthesis (150 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":225}
+--- Swarm State Audit [225s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=150 HB=2s ago tick=46(~230s) activity="Cognitive Synthesis (150 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":230}
+--- Swarm State Audit [230s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update)
+ TASK: TASK-17784068787782307 [InProgress] role=Architect agent=AGENT-0 file=server.cpp prog=0% toks=150 HB=2s ago tick=47(~235s) activity="Cognitive Synthesis (150 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging  EXECUTIV..."
+
+=== SIMULATION TERMINAL ===
+[PIPELINE_TELEMETRY] wrote pipeline_telemetry.json (composed Crucible / peer / Sentinel cycles)
+Final State: FAILURE
+Seed: Completed | SwarmIdle: Yes | OutputsOK: No
+Failure detail: no non-seed task reached Completed — Architect DAG likely empty/unspawned, or Developers never finished (see smoke_debug.ndjson + startup.log [SWARM]/[BLACKBOARD]).

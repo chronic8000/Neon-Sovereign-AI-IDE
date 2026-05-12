@@ -1,0 +1,16 @@
+{
+  "crucible_inner_rounds_started": 0,
+  "crucible_successful_commits": 0,
+  "ended_unix": 1778408114,
+  "format": "neon_pipeline_telemetry_final_v1",
+  "peer_gate_passes": 0,
+  "peer_gate_runs": 0,
+  "peer_revision_cycles": 0,
+  "sentinel_acceptances": 0,
+  "sentinel_audits": 0,
+  "shadow_verify_failures": 0,
+  "shadow_verify_successes": 0,
+  "swarm_peer_review_approvals": 0,
+  "swarm_peer_review_invocations": 0,
+  "swarm_peer_review_rejections": 0
+}

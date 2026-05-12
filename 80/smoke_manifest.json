@@ -1,0 +1,60 @@
+{
+  "demand_phase": {
+    "ceo_summary": "This initiative will significantly enhance our CI pipeline robustness by providing a lightweight, reliable mechanism for smoke testing, directly improving deployment confidence.",
+    "constraints": [
+      "- Implement a minimal HTTP echo server (e.g., using a lightweight framework).",
+      "- Implement structured logging for all request/response events.",
+      "- Ensure the server is idempotent and handles basic verification success/failure states.",
+      "- Design the service to be easily containerized for CI/CD integration.",
+      "- Minimize dependencies to ensure rapid deployment and minimal overhead."
+    ],
+    "cpo_summary": "We will architect this as a lean API service to ensure maximum feasibility, focusing on minimal code complexity while delivering the required structured logging and verification hooks.",
+    "modality": "api_service",
+    "rationale": "The task requires building a minimal HTTP server component to handle verification requests, which aligns perfectly with the definition of an API service, providing the necessary interface for CI verification."
+  },
+  "executive_meetings_ran": true,
+  "format": "neon_smoke_manifest_v1",
+  "idle_stall_budget_sec": 3600,
+  "pipeline_chain": [
+    "executive_demand",
+    "executive_stack",
+    "architect_dag_emit",
+    "parallel_development",
+    "peer_and_sentinel",
+    "crucible_verify",
+    "artifact_packaging"
+  ],
+  "resolved_logic_model": "gemma-4-e2b-it-q4_k_m",
+  "resolved_speed_model": "qwen2.5-coder:1.5b",
+  "simulation_id": 80,
+  "smoke_audit_interval_sec": 5,
+  "smoke_debug_ndjson": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\80/smoke_debug.ndjson",
+  "smoke_path": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\80",
+  "smoke_tick_log": false,
+  "stack_phase": {
+    "build_notes": "CMake for build management, GoogleTest/Catch2 for unit tests, Dockerfile generation for containerization.",
+    "cto_summary": "We will leverage C++20 for high-performance, native artifacts while maintaining flexibility for rapid prototyping via secondary languages.",
+    "primary_language": "cpp",
+    "risks": [
+      "Over-engineering the minimal server component",
+      "Dependency bloat compromising the 'minimal overhead' constraint",
+      "Performance bottlenecks in the HTTP handling layer."
+    ],
+    "secondary_languages": [
+      "rust",
+      "python"
+    ]
+  },
+  "staff_mail_mirror": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\80/staff_mail.jsonl",
+  "started_unix": 1778411855,
+  "ui_pipeline_hints": [
+    "architect_planning",
+    "swarm_execution",
+    "output_verification",
+    "executive_meetings",
+    "composed_review_cycles",
+    "composed_test_cycles",
+    "docs_packaging"
+  ],
+  "user_brief": "Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging"
+}

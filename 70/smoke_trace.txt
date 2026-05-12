@@ -1,0 +1,21 @@
+=== SMOKE TRACE (forensic) ===
+simulation_id=70
+cwd=C:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src
+smoke_path=c:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\70
+SOVEREIGN_LOGIC_MODEL=gemma-4-e2b-it-q4_k_m
+SOVEREIGN_SPEED_MODEL=qwen2.5-coder:1.5b
+resolved_logic_model=gemma-4-e2b-it-q4_k_m
+resolved_speed_model=qwen2.5-coder:1.5b
+ollama_managed_port=11435
+Neon hot-swap: evict/lock are gated; see startup.log for [GOVERNOR]/[SWARM] lines.
+Developer path (default): local offline operator loop — Reason+Act with REAL tool execution (read/write/execute); same doctrine as Neon Sovereign readme (agent product, not chat-only).
+Throughput mode: SOVEREIGN_SDK_SINGLE_SHOT=1 => single inference per task (planSingleShotCodegen); use for CI/smoke velocity, not as the architecture ceiling.
+SOVEREIGN_REACT_MAX_STEPS: unset/0/unlimited = no cap; else 4..50M bounds multi-step ReAct.
+SOVEREIGN_REPO_ROOT=<dir> pins smoke-test under <dir>/smoke-test .
+SOVEREIGN_SMOKE_TIMEOUT_SEC=<300-604800|0> idle stall budget (sec); default 3600; timer pauses while blackboard has active tasks. 0 or unlimited = wait until done.
+SOVEREIGN_ARCHITECT_ASK_TIMEOUT_SEC=<120-7200> Logic-tier DAG wait per Architect task (default 1800).
+SOVEREIGN_CRUCIBLE_AUTO_REPAIR_ROUNDS=<1-32> inner repair attempts per submit_patch before swarm retry (default 8).
+SOVEREIGN_PEER_GATE=0 disables Speed-tier peer review before Sentinel (default: peer gate on).
+SOVEREIGN_SKIP_EXEC_MEETINGS=1 skips CEO/CPO/CTO inference hops (mandate_meetings.json not produced).
+staff_mail.jsonl — NDJSON mirror of Staff Mail (CEO briefings + staff_mail_post tool); headless smoke exits before the UI event loop, so this file is the archive of operator-facing mail.
+Crucible peer/Sentinel/shadow cycle counters: [PIPELINE_METRICS] each poll + pipeline_telemetry.json at end.

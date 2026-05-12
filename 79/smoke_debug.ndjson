@@ -1,0 +1,47 @@
+{"event":"blackboard_task_registered","file":"server.cpp","node":"","role":0,"task_id":"TASK-17784089935016433","unix_ts":1778408993}
+{"audit_interval_sec":5,"event":"smoke_seed_task_submitted","simulation_id":79,"task_id":"TASK-17784089935016433","unix_ts":1778408993}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408994,"wall_i":0}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778408999,"wall_i":5}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409004,"wall_i":10}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409009,"wall_i":15}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409014,"wall_i":20}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409019,"wall_i":25}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409024,"wall_i":30}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409029,"wall_i":35}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409034,"wall_i":40}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409039,"wall_i":45}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409044,"wall_i":50}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409050,"wall_i":55}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409055,"wall_i":60}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409060,"wall_i":65}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409065,"wall_i":70}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409070,"wall_i":75}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409075,"wall_i":80}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409080,"wall_i":85}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409085,"wall_i":90}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409090,"wall_i":95}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409095,"wall_i":100}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409100,"wall_i":105}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409105,"wall_i":110}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409110,"wall_i":115}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409115,"wall_i":120}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409120,"wall_i":125}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409125,"wall_i":130}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409130,"wall_i":135}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409135,"wall_i":140}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409140,"wall_i":145}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409145,"wall_i":150}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409150,"wall_i":155}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409155,"wall_i":160}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409161,"wall_i":165}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409166,"wall_i":170}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409171,"wall_i":175}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409176,"wall_i":180}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409181,"wall_i":185}
+{"event":"smoke_verdict_preview","non_seed_completed":0,"seed_done":false,"swarm_idle":false,"unix_ts":1778409186,"wall_i":190}
+{"byte_length":1145,"event":"architect_llm_raw","raw_text":"```json\n[\n  {\n    \"id\": \"task_001\",\n    \"description\": \"Define the core structure for the HTTP server and request handling logic in Server.h/cpp.\",\n    \"dependencies\": [],\n    \"type\": \"implementation\",\n    \"priority\": \"high\"\n  },\n  {\n    \"id\": \"task_002\",\n    \"description\": \"Implement the HTTP listener and basic request/response handling within the server module.\",\n    \"dependencies\": [\n      \"task_001\"\n    ],\n    \"type\": \"implementation\",\n    \"priority\": \"high\"\n  },\n  {\n    \"id\": \"task_003\",\n    \"description\": \"Integrate structured logging mechanism for request metrics and errors.\",\n    \"dependencies\": [\n      \"task_002\"\n    ],\n    \"type\": \"implementation\",\n    \"priority\": \"medium\"\n  },\n  {\n    \"id\": \"task_004\",\n    \"description\": \"Implement the main function to initialize the server and start listening.\",\n    \"dependencies\": [\n      \"task_003\"\n    ],\n    \"type\": \"integration\",\n    \"priority\": \"high\"\n  },\n  {\n    \"id\": \"task_005\",\n    \"description\": \"Write unit tests to verify basic server functionality and logging output.\",\n    \"dependencies\": [\n      \"task_004\"\n    ],\n    \"type\": \"testing\",\n    \"priority\": \"medium\"\n  }\n]\n```","truncated":false,"unix_ts":1778409189}
+{"event":"architect_json_extract","extract_empty":false,"extracted_len":1134,"raw_len":1145,"unix_ts":1778409189}
+{"byte_length":904,"dag_json":"[{\"dependencies\":[],\"description\":\"Define the core structure for the HTTP server and request handling logic in Server.h/cpp.\",\"id\":\"task_001\",\"priority\":\"high\",\"type\":\"implementation\"},{\"dependencies\":[\"task_001\"],\"description\":\"Implement the HTTP listener and basic request/response handling within the server module.\",\"id\":\"task_002\",\"priority\":\"high\",\"type\":\"implementation\"},{\"dependencies\":[\"task_002\"],\"description\":\"Integrate structured logging mechanism for request metrics and errors.\",\"id\":\"task_003\",\"priority\":\"medium\",\"type\":\"implementation\"},{\"dependencies\":[\"task_003\"],\"description\":\"Implement the main function to initialize the server and start listening.\",\"id\":\"task_004\",\"priority\":\"high\",\"type\":\"integration\"},{\"dependencies\":[\"task_004\"],\"description\":\"Write unit tests to verify basic server functionality and logging output.\",\"id\":\"task_005\",\"priority\":\"medium\",\"type\":\"testing\"}]","event":"architect_parsed_json","truncated":false,"unix_ts":1778409189}
+{"event":"architect_dag_shape","has_nodes_array":false,"nodes_len":0,"unix_ts":1778409189}
+{"event":"architect_dag_exception","extracted_len":1134,"raw_len":1145,"unix_ts":1778409189,"what":"[json.exception.invalid_iterator.207] cannot use key() for non-object iterators"}
+{"code_len":1133,"event":"architect_fallback_code_block","unix_ts":1778409189}

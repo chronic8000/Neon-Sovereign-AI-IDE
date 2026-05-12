@@ -1,0 +1,2165 @@
+=== NEON SOVEREIGN SMOKE TEST ARCHIVE ===
+Simulation ID: 61
+Debug: C:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\61/smoke_trace.txt
+Mandate: SOFTWARE HOUSE MANDATE (user brief): \ ping ping ping\
+
+ARCHITECT: Emit JSON Task DAG only (uuid, file, blocked_by, role). DEVELOPERS: parallel implementation. SENTINEL: orthogonal audit. FULL AUTONOMOUS MODE.
+Start Time: 1778310243
+Poll limit: 3600s (SOVEREIGN_SMOKE_TIMEOUT_SEC)
+
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [0s] ---
+ TASK: TASK-17783102430778101 [InProgress] -> server.cpp (Tokens: 0, HB: 0s ago, State: Decomposing Mandate into DAG...)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [10s] ---
+ TASK: TASK-17783102430778101 [InProgress] -> server.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 3)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [20s] ---
+ TASK: TASK-17783102430778101 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 5)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [30s] ---
+ TASK: TASK-17783102430778101 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 7)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [40s] ---
+ TASK: TASK-17783102430778101 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 9)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [50s] ---
+ TASK: TASK-17783102430778101 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 11)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [60s] ---
+ TASK: TASK-17783102430778101 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 13)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [70s] ---
+ TASK: TASK-17783102430778101 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 15)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [80s] ---
+ TASK: TASK-17783102430778101 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 17)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [90s] ---
+ TASK: TASK-17783102430778101 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 19)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [100s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Generating Implementation...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [110s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 12s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 3)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [120s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 22s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 5)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [130s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 32s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 7)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [140s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 42s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 9)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [150s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 52s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 11)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [160s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 62s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 13)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [170s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 72s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 15)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [180s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 82s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 17)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [190s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 92s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 19)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [200s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 102s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 21)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [210s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 112s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 23)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [220s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 122s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 25)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [230s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 132s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 27)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [240s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 142s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 29)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [250s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 153s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 31)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [260s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 163s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 33)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [270s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 173s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 35)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [280s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 183s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 37)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [290s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 193s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 39)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [300s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 203s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 41)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [310s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 213s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 43)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [320s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 223s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 45)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [330s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 233s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 47)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [340s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 243s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 49)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [350s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 253s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 51)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [360s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 263s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 53)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [370s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 273s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 55)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [380s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 283s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 57)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [390s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 294s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 59)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [400s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 304s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 61)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [410s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 314s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 63)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [420s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 324s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 65)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [430s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 334s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 67)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [440s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 344s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 69)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [450s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 354s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 71)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [460s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 364s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 73)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [470s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 374s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 75)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [480s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 384s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 77)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [490s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 394s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 79)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [500s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 404s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 81)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [510s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 414s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 83)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [520s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 424s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 85)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [530s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 434s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 87)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [540s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 444s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 89)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [550s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 454s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 91)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [560s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 465s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 93)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [570s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 475s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 95)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [580s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 485s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 97)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [590s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 495s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 99)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [600s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 505s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 101)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [610s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 515s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 103)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [620s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 525s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 105)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [630s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 535s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 107)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [640s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 545s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 109)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [650s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 555s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 111)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [660s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 565s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 113)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [670s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 575s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 115)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [680s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 585s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 117)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [690s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 595s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 120)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [700s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 605s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 122)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [710s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 616s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 124)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [720s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 626s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 126)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [730s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 636s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 128)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [740s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 646s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 130)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [750s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 656s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 132)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [760s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 666s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 134)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [770s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 676s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 136)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [780s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 686s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 138)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [790s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 696s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 140)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [800s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 706s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 142)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [810s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 716s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 144)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [820s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 726s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 146)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [830s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 736s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 148)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [840s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 746s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 150)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [850s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 756s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 152)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [860s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 766s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 154)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [870s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 776s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 156)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [880s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 787s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 158)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [890s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 797s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 160)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [900s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 807s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 162)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [910s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 817s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 164)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [920s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 827s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 166)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [930s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 837s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 168)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [940s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 847s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 170)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [950s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 857s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 172)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [960s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 867s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 174)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [970s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 877s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 176)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [980s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 887s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 178)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [990s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 897s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 180)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1000s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 907s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 182)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1010s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 918s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 184)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1020s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 928s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 186)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1030s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 938s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 188)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1040s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 948s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 190)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1050s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 958s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 192)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1060s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 968s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 194)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1070s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 978s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 196)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1080s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 988s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 198)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1090s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 998s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 200)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1100s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1008s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 202)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1110s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1018s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 204)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1120s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1028s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 206)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1130s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1038s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 208)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1140s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1048s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 210)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1150s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1058s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 212)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1160s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1068s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 214)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1170s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1079s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 216)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1180s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1089s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 218)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1190s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1099s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 220)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1200s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1109s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 222)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1210s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1119s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 224)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1220s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1129s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 226)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1230s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1139s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 228)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1240s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1149s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 230)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1250s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1159s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 232)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1260s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1169s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 234)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1270s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1179s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 236)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1280s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1189s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 238)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1290s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1199s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 240)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1300s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1209s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 242)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1310s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1220s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 244)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1320s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1230s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 246)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1330s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1240s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 248)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1340s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1250s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 250)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1350s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1260s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 252)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1360s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1270s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 254)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1370s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1280s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 256)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1380s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1290s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 258)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1390s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1300s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 260)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1400s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1310s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 262)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1410s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1320s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 264)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1420s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1330s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 266)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1430s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1340s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 268)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1440s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1350s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 270)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1450s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1360s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 272)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1460s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1371s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 274)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1470s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1381s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 276)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1480s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1391s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 278)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1490s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1401s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 280)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1500s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1411s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 282)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1510s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1421s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 284)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1520s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1431s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 286)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1530s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1441s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 288)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1540s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1451s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 290)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1550s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1461s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 292)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1560s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1471s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 294)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1570s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1481s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 296)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1580s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1491s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 298)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1590s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1501s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 300)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1600s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1512s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 302)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1610s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1522s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 304)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1620s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1532s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 306)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1630s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1542s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 308)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1640s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1552s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 311)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1650s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1562s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 313)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1660s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1572s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 315)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1670s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1582s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 317)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1680s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1592s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 319)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1690s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1602s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 321)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1700s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1612s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 323)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1710s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1622s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 325)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1720s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1632s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 327)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1730s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1642s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 329)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1740s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1653s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 331)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1750s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1663s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 333)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1760s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1673s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 335)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1770s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1683s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 337)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1780s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1693s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 339)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1790s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1703s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 341)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1800s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1713s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 343)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1810s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1723s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 345)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1820s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1733s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 347)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1830s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1743s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 349)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1840s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1753s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 351)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1850s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1763s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 353)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1860s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1773s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 355)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1870s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1784s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 357)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1880s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1794s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 359)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1890s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1804s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 361)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1900s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1814s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 363)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1910s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1824s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 365)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1920s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1834s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 367)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1930s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1844s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 369)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1940s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1854s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 371)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1950s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1864s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 373)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1960s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1874s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 375)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1970s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1884s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 377)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1980s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1894s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 379)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [1990s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1904s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 381)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2000s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1914s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 383)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2010s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1924s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 385)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2020s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1935s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 387)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2030s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1945s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 389)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2040s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1955s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 391)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2050s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1965s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 393)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2060s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1975s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 395)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2070s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1985s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 397)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2080s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 1995s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 399)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2090s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2005s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 401)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2100s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2015s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 403)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2110s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2025s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 405)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2120s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2035s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 407)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2130s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2045s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 409)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2140s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2055s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 411)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2150s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2066s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 413)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2160s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2076s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 415)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2170s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2086s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 417)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2180s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2096s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 419)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2190s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2106s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 421)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2200s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2116s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 423)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2210s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2126s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 425)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2220s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2136s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 427)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2230s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2146s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 429)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2240s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2156s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 431)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2250s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2166s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 433)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2260s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2176s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 435)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2270s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2186s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 437)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2280s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2196s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 439)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2290s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2207s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 441)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2300s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2217s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 443)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2310s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2227s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 445)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2320s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2237s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 447)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2330s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2247s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 449)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2340s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2257s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 451)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2350s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2267s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 453)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2360s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2277s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 455)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2370s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2287s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 457)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2380s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2297s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 459)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2390s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2307s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 461)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2400s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2317s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 463)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2410s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2327s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 465)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2420s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2337s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 467)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2430s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2347s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 469)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2440s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2358s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 471)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2450s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2368s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 473)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2460s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2378s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 475)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2470s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2388s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 477)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2480s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2398s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 479)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2490s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2408s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 481)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2500s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2418s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 483)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2510s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2428s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 485)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2520s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2438s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 487)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2530s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2448s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 490)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2540s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2458s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 492)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2550s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2468s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Generating Implementation...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2560s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2478s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 3)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2570s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2488s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 5)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2580s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2499s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 7)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2590s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2509s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 9)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2600s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2519s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 11)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2610s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2529s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 13)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2620s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2539s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 15)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2630s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2549s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 17)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2640s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2559s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 19)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2650s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2569s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 21)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2660s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2579s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 23)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2670s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2589s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 25)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2680s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2599s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 27)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2690s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2609s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 29)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2700s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2619s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 31)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2710s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2630s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 33)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2720s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2640s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 35)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2730s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2650s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 37)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2740s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2660s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 39)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2750s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2670s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 41)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2760s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2680s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 43)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2770s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2690s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 45)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2780s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2700s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 47)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2790s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2710s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 49)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2800s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2720s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 51)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2810s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2730s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 53)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2820s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2740s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 55)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2830s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2751s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 57)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2840s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2761s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 59)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2850s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2771s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 61)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2860s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2781s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 63)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2870s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2791s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 65)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2880s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2801s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 67)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2890s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2811s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 69)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2900s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2821s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 71)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2910s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2831s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 73)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2920s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2841s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 75)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2930s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2851s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 77)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2940s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2861s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 79)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2950s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2871s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 81)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2960s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2881s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 83)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2970s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2892s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 85)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2980s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2902s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 87)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [2990s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2912s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 89)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3000s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2922s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 91)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3010s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2932s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 93)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3020s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2942s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 2s ago, State: Agential Reasoning Phase 95)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3030s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2952s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 97)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3040s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2962s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 99)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3050s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2972s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 101)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3060s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2982s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 103)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3070s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 2992s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 105)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3080s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3002s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 107)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3090s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3012s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 109)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3100s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3023s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 111)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3110s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3033s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 113)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3120s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3043s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 115)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3130s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3053s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 117)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3140s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3063s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 119)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3150s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3073s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 121)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3160s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3083s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 123)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3170s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3093s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 125)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3180s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3103s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 127)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3190s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3113s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 3s ago, State: Agential Reasoning Phase 129)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3200s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3123s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 131)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3210s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3133s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 133)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3220s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3143s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 135)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3230s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3154s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 137)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3240s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3164s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 139)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3250s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3174s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 141)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3260s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3184s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 143)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3270s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3194s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 145)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3280s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3204s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 147)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3290s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3214s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 149)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3300s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3224s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 151)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3310s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3234s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 153)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3320s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3244s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 155)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3330s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3254s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 157)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3340s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3264s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 159)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3350s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3274s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 161)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3360s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3284s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 4s ago, State: Agential Reasoning Phase 163)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3370s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3294s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 166)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3380s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3305s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 168)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3390s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3315s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 170)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3400s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3325s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 172)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3410s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3335s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 174)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3420s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3345s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 176)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3430s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3355s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 178)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3440s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3365s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 180)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3450s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3375s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 182)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3460s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3385s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 184)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3470s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3395s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 186)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3480s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3405s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 188)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3490s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3415s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 190)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3500s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3425s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 192)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3510s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3435s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 194)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3520s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3446s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 196)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3530s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3456s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 198)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3540s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3466s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 0s ago, State: Agential Reasoning Phase 200)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3550s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3476s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 202)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3560s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3486s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 204)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3570s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3496s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 206)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3580s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3506s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 208)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [3590s] ---
+ TASK: TASK-17783102430778101 [Completed] -> server.cpp (Tokens: 50, HB: 3516s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17783103428694568 [InProgress] -> server.hpp (Tokens: 433, HB: 1s ago, State: Agential Reasoning Phase 210)
+
+=== SIMULATION TERMINAL ===
+Final State: FAILURE
+Reason: TIMEOUT after 3600s (swarm still had active work; raise SOVEREIGN_SMOKE_TIMEOUT_SEC or simplify brief)
+Seed: Completed | SwarmIdle: No | OutputsOK: No
+Incomplete Tasks: server.hpp=[InProgress]
