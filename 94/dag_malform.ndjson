@@ -1,0 +1,3 @@
+{"attempt":1,"format":"neon_dag_malform_v1","kind":"architect_dag_empty_after_normalize","unix_ts":1778591120}
+{"attempt":2,"extracted_len":1248,"format":"neon_dag_malform_v1","kind":"architect_dag_exception","raw_len":1248,"unix_ts":1778591125,"what":"[json.exception.type_error.302] type must be string, but is null"}
+{"attempt":3,"extracted_len":1809,"format":"neon_dag_malform_v1","kind":"architect_dag_exception","raw_len":1809,"unix_ts":1778591133,"what":"[json.exception.parse_error.101] parse error at line 1, column 213: syntax error while parsing object key - unexpected '['; expected string literal"}

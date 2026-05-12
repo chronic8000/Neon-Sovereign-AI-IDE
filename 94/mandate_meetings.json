@@ -1,0 +1,38 @@
+{
+  "created_unix": 1778591117,
+  "format": "neon_mandate_meetings_v1",
+  "phases": [
+    {
+      "parse_ok": true,
+      "parsed": {
+        "ceo_summary": "Implementing this lightweight server significantly expands our smoke testing surface area, guaranteeing robust connectivity validation across all deployment environments.",
+        "constraints": [
+          "Must implement a minimal HTTP server capable of echoing received requests (GET/POST).",
+          "Must use a structured logging format (e.g., JSON) for all access, error, and lifecycle events.",
+          "Should expose a clear API/interface for programmatic invocation by the CI test runner.",
+          "Must be dependency-managed and kept isolated from core business logic."
+        ],
+        "cpo_summary": "We must ensure the library adheres to clean architecture principles, keeping the server implementation highly modular and the logging mechanism standardized for easy integration with existing monitoring tools.",
+        "modality": "library",
+        "rationale": "The HTTP echo server is a reusable utility component that provides core functionality for the smoke testing suite. Structuring it as a library ensures it can be easily integrated as a dependency within the existing CI framework without polluting the main application codebase."
+      },
+      "phase": "demand_modality",
+      "raw": "{\"modality\":\"library\", \"rationale\":\"The HTTP echo server is a reusable utility component that provides core functionality for the smoke testing suite. Structuring it as a library ensures it can be easily integrated as a dependency within the existing CI framework without polluting the main application codebase.\", \"constraints\":[\"Must implement a minimal HTTP server capable of echoing received requests (GET/POST).\",\"Must use a structured logging format (e.g., JSON) for all access, error, and lifecycle events.\",\"Should expose a clear API/interface for programmatic invocation by the CI test runner.\",\"Must be dependency-managed and kept isolated from core business logic.\"], \"ceo_summary\":\"Implementing this lightweight server significantly expands our smoke testing surface area, guaranteeing robust connectivity validation across all deployment environments.\", \"cpo_summary\":\"We must ensure the library adheres to clean architecture principles, keeping the server implementation highly modular and the logging mechanism standardized for easy integration with existing monitoring tools.\"}"
+    },
+    {
+      "parse_ok": true,
+      "parsed": {
+        "build_system": "CMake",
+        "implementation_notes": "The server component should utilize modern C++ features (C++17/20) for asynchronous networking (e.g., Boost.Asio or similar). The core logic must handle HTTP request parsing and response generation. Logging must serialize structured data (JSON) to facilitate easy parsing by CI/CD tools.",
+        "primary_language": "C++",
+        "required_dependencies": [
+          "Boost.Asio (or equivalent networking library)",
+          "nlohmann/json (or similar JSON library)"
+        ],
+        "testing_strategy": "Unit tests for request handlers and serialization logic; Integration tests simulating full HTTP request/response cycles."
+      },
+      "phase": "stack_choice",
+      "raw": "```json\n{\n  \"primary_language\": \"C++\",\n  \"build_system\": \"CMake\",\n  \"implementation_notes\": \"The server component should utilize modern C++ features (C++17/20) for asynchronous networking (e.g., Boost.Asio or similar). The core logic must handle HTTP request parsing and response generation. Logging must serialize structured data (JSON) to facilitate easy parsing by CI/CD tools.\",\n  \"required_dependencies\": [\n    \"Boost.Asio (or equivalent networking library)\",\n    \"nlohmann/json (or similar JSON library)\"\n  ],\n  \"testing_strategy\": \"Unit tests for request handlers and serialization logic; Integration tests simulating full HTTP request/response cycles.\"\n}\n```"
+    }
+  ]
+}

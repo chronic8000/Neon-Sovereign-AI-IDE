@@ -1,0 +1,70 @@
+{
+  "common_room_mirror": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\94/common_room.jsonl",
+  "dag_malform_ndjson": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\94/dag_malform.ndjson",
+  "demand_parse_ok": true,
+  "demand_phase": {
+    "ceo_summary": "Implementing this lightweight server significantly expands our smoke testing surface area, guaranteeing robust connectivity validation across all deployment environments.",
+    "constraints": [
+      "Must implement a minimal HTTP server capable of echoing received requests (GET/POST).",
+      "Must use a structured logging format (e.g., JSON) for all access, error, and lifecycle events.",
+      "Should expose a clear API/interface for programmatic invocation by the CI test runner.",
+      "Must be dependency-managed and kept isolated from core business logic."
+    ],
+    "cpo_summary": "We must ensure the library adheres to clean architecture principles, keeping the server implementation highly modular and the logging mechanism standardized for easy integration with existing monitoring tools.",
+    "modality": "library",
+    "rationale": "The HTTP echo server is a reusable utility component that provides core functionality for the smoke testing suite. Structuring it as a library ensures it can be easily integrated as a dependency within the existing CI framework without polluting the main application codebase."
+  },
+  "executive_meetings_ran": true,
+  "format": "neon_smoke_manifest_v1",
+  "idle_stall_budget_sec": 3600,
+  "integration_gate_enabled": true,
+  "num_ctx_logic": 4096,
+  "num_ctx_speed": 4096,
+  "pipeline_chain": [
+    "executive_demand",
+    "executive_stack",
+    "architect_dag_emit",
+    "parallel_development",
+    "peer_and_sentinel",
+    "crucible_verify",
+    "artifact_packaging"
+  ],
+  "residency_mode": "sequential",
+  "residency_probe_notes": "catalog_empty",
+  "residency_probe_ok": false,
+  "resolved_crucible_peer_gate": "on",
+  "resolved_logic_model": "gemma4:e4b-it-q4_K_M",
+  "resolved_speed_model": "qwen2.5-coder:1.5b",
+  "simulation_id": 94,
+  "smoke_audit_interval_sec": 5,
+  "smoke_debug_ndjson": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\94/smoke_debug.ndjson",
+  "smoke_full_pipeline": false,
+  "smoke_integrity_profile": "integrity",
+  "smoke_path": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\94",
+  "smoke_tick_log": false,
+  "stack_parse_ok": true,
+  "stack_phase": {
+    "build_system": "CMake",
+    "implementation_notes": "The server component should utilize modern C++ features (C++17/20) for asynchronous networking (e.g., Boost.Asio or similar). The core logic must handle HTTP request parsing and response generation. Logging must serialize structured data (JSON) to facilitate easy parsing by CI/CD tools.",
+    "primary_language": "C++",
+    "required_dependencies": [
+      "Boost.Asio (or equivalent networking library)",
+      "nlohmann/json (or similar JSON library)"
+    ],
+    "testing_strategy": "Unit tests for request handlers and serialization logic; Integration tests simulating full HTTP request/response cycles."
+  },
+  "staff_mail_mirror": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\94/staff_mail.jsonl",
+  "started_unix": 1778591117,
+  "ui_pipeline_hints": [
+    "architect_planning",
+    "swarm_execution",
+    "output_verification",
+    "executive_meetings",
+    "composed_review_cycles",
+    "composed_test_cycles",
+    "docs_packaging"
+  ],
+  "user_brief": "Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging",
+  "vram_budget_bytes": 17179869184,
+  "vram_estimated_need_bytes": 7478444032
+}

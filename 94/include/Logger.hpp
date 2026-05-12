@@ -1,0 +1,1 @@
+{"name": "include_guard", "arguments": {"file": "include/Logger.hpp"}}
