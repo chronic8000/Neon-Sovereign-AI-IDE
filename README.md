@@ -1,3 +1,5 @@
+**UPDATE: Added folder 93 from smoke-test 93. Check out "smoke_test_swarm.log" and smoke-trace.txt and some of the code it has been outputting. Please remember this log is very early and doesn't even have all features enabled yet. This is complicated! Design has been going on about 3 months so far with a lot of research and development done. Screenshots will be included too soon. I am not releasing AI slop. This has been a battle to get this far. Be kind!**
+
 # Neon Sovereign: The Universal Engineering Workstation
 
 **Neon Sovereign** is a high-performance, fully native **C++20 AI-powered IDE** built from first principles. It is not a chat assistant, a copilot, or a plugin. It is a **Fully Autonomous Execution Pipeline** designed to operate as a deterministic software house.
