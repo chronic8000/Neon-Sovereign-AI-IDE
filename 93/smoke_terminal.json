@@ -1,0 +1,16 @@
+{
+  "final_state": "SUCCESS",
+  "final_success": true,
+  "format": "neon_smoke_terminal_v1",
+  "incomplete_tasks": "",
+  "integration_ok": false,
+  "integration_ran": false,
+  "missing_or_empty": "",
+  "non_seed_completed": 1,
+  "outputs_ok": true,
+  "peer_gate_ok": true,
+  "seed_status": "Completed",
+  "smoke_stall_cascade": false,
+  "smoke_timed_out": false,
+  "swarm_idle": true
+}

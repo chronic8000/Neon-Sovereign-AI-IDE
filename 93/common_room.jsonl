@@ -1,0 +1,10 @@
+{"author":"Orchestrator","body":"Common room open — post status, blockers, and interface decisions here. Staff Mail remains for operator questions.","channel":"general","format":"neon_common_room_v1","role":"Software House","unix_ts":1778590638}
+{"author":"TASK-17785906380405556","body":"Task queued for neon_smoke_software_house_dag_emit.md","channel":"blackboard","format":"neon_common_room_v1","role":"0","unix_ts":1778590638}
+{"author":"Enid","body":"Picked up neon_smoke_software_house_dag_emit.md — SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap\n\nEXECUTIVE SYNTHESIS (skipped): proceed from user brief only.\n\n\nCROSS_RUN_SWARM_MEMORY (ledger.db KnowledgeBase; do not repeat recorded failures):\n=== SWARM MEMOR","channel":"swarm","format":"neon_common_room_v1","role":"Architect","unix_ts":1778590638}
+{"author":" Enid","body":"Picked up neon_smoke_software_house_dag_emit.md","channel":"general","format":"neon_common_room_v1","role":"Architect","unix_ts":1778590638}
+{"author":"TASK-17785906916254199","body":"Task queued for src/Subneon_arch_step_0neon_arch_step_0.cpp · node neon_arch_step_0","channel":"blackboard","format":"neon_common_room_v1","role":"1","unix_ts":1778590691}
+{"author":"Enid","body":"DAG emitted 1 tasks (0 rejected).","channel":"architect","format":"neon_common_room_v1","role":"Architect","unix_ts":1778590691}
+{"author":"TASK-17785906380405556","body":"Completed neon_smoke_software_house_dag_emit.md","channel":"blackboard","format":"neon_common_room_v1","role":"blackboard","unix_ts":1778590691}
+{"author":"Peter","body":"Picked up src/Subneon_arch_step_0neon_arch_step_0.cpp — Architect sub-task neon_arch_step_0","channel":"swarm","format":"neon_common_room_v1","role":"Developer","unix_ts":1778590691}
+{"author":" Peter","body":"Picked up src/Subneon_arch_step_0neon_arch_step_0.cpp","channel":"general","format":"neon_common_room_v1","role":"Developer","unix_ts":1778590691}
+{"author":"TASK-17785906916254199","body":"Completed src/Subneon_arch_step_0neon_arch_step_0.cpp","channel":"blackboard","format":"neon_common_room_v1","role":"blackboard","unix_ts":1778590702}

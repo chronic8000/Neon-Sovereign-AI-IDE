@@ -1,0 +1,180 @@
+=== NEON SOVEREIGN SMOKE TEST ARCHIVE ===
+Simulation ID: 93
+smoke_path: c:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\93
+Debug: c:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\93/smoke_trace.txt
+[SMOKE_PHASE] log opened; smoke_trace.txt about to be written; next phase is run_executive_meetings() unless SOVEREIGN_SKIP_EXEC_MEETINGS=1 (can take many minutes).
+[SMOKE_PHASE] executive_meetings_begin
+[SMOKE_PHASE] executive_meetings_end ran_meetings=no
+[SMOKE_PHASE] smoke_manifest.json written; assembling swarm mandate + seed workspace
+Mandate: SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap
+
+EXECUTIVE SYNTHESIS (skipped): proceed from user brief only.
+
+
+CROSS_RUN_SWARM_MEMORY (ledger.db KnowledgeBase; do not repeat recorded failures):
+=== SWARM MEMORY (ledger.db / KnowledgeBase) ===
+- [[smoke] architect_dag_exception] Review prior smoke failure pattern before repeating. | {"attempt":3,"event":"architect_dag_exception","extracted_len":1003,"raw_len":1003,"unix_ts":1778588684,"what":"[json.exception.type_error.302] type must be string, but is null"}
+- [[smoke] architect_total_failure_no_json_no_fence] Review prior smoke failure pattern before repeating. | {"event":"architect_total_failure_no_json_no_fence","raw_len":5114,"unix_ts":1778576113}
+- [[smoke] crucible_shadow_fail] Review prior smoke failure pattern before repeating. | {"error_log":"Single-TU shadow compile failed.","event":"crucible_shadow_fail","failure_type":0,"task_id":"TASK-17785702450585391","unix_ts":1778575086}
+- [[smoke] smoke_final_verdict_failure] Review prior smoke failure pattern before repeating. | {"incomplete":"scripts/verify_server.sh=[Stalled], CMakeLists.txt=[Stalled], src/Logger.cpp=[Stalled], src/EchoServer.cpp=[Stalled], integration_build=[Stalled], src/main.cpp=[Stalled]","integration_detail":"","integration_ok":true,"missing_or_empty":"","non_seed_completed":2,"outputs_ok":true,"peer_gate_ok":true,"seed_done":true,"smoke_timed_out":true,"swarm_idle":true}
+- [[smoke] blackboard_path_normalized] Review prior smoke failure pattern before repeating. | {"detail":"sanitized_layout","event":"blackboard_path_normalized","from":"src/ApplicationStructureNeon_arch_step_0.cpp","to":"src/Applicationstructureneon_arch_step_0.cpp","unix_ts":1778588686}
+- [[smoke] blackboard_submit_rejected_path] Affected file: build_and_test | {"detail":"","event":"blackboard_submit_rejected_path","file":"build_and_test","unix_ts":1778576994}
+- [[smoke] dag_child_submit_duplicate_or_invalid] Affected file: build_and_test | {"event":"dag_child_submit_duplicate_or_invalid","file":"build_and_test","index":8,"role":"ForgeMaster","unix_ts":1778576994,"uuid":"task_009"}
+- [[smoke] crucible_auto_repair_exhausted] Affected file: src/Logger.cpp | {"event":"crucible_auto_repair_exhausted","file":"src/Logger.cpp","last_gate_error":"[HYPOTHESIS]: Vulnerability Hypothesis: **Buffer Overflow in `Logger::log` Function**  \nAnalysis: The use of a static mutex to synchronize access to the `std::cout` stream is not sufficient. If multiple threads call `Logger::log` simultaneously, they can cause the buffer overflow by attempting to write beyond its allocated size. This flaw occurs because the mutex does not prevent concurrent writes into the same buffer, lea…
+- [[gossip] cross_run_merge CMakeLists.txt] Merged interface contract across smoke runs for CMakeLists.txt | {"description":"Configure build system for the project.\n---\nConfigure the build system, linking the server and logger components.","file":"CMakeLists.txt","node":"task-006"}
+- [[gossip] cross_run_merge include/Logger.hpp] Merged interface contract across smoke runs for include/Logger.hpp | {"description":"Define a structured logging interface for the server.\n---\nDefine the structured logging interface for telemetry and error reporting.\n---\nDefine the Logger class for thread-safe, timestamped logging to support the server's observability requirements.","file":"include/Logger.hpp","node":"task_001"}
+- [[gossip] cross_run_merge src/Logger.cpp] Merged interface contract across smoke runs for src/Logger.cpp | {"description":"Implement the structured logging logic.\n---\nImplement the Logger to ensure precise timestamps and structured output for CI/CD observability.","file":"src/Logger.cpp","node":"task-002"}
+- [[gossip] cross_run_merge include/EchoServer.hpp] Merged interface contract across smoke runs for include/EchoServer.hpp | {"description":"Define the EchoServer class for handling HTTP requests.\n---\nDefine the EchoServer class interface using C++20 networking or socket primitives.\n---\nDefine the EchoServer class using socket primitives to handle incoming HTTP-like requests.","file":"include/EchoServer.hpp","node":"task_003"}
+
+
+HUMAN-IN-THE-LOOP (Staff Mail): When you need design, UX, product, or scope clarification from the operator, call tool staff_mail_post with parameters from (your role, e.g. Architect), subject (short), body (specific questions). This queues in-app mail (Win3.1 Staff Mail window). Post milestone updates the same way so the operator can track how the build is going. Do NOT block work waiting for mail: if there is no reply (e.g. headless smoke), proceed with reasonable defaults and state your assumptions in the artifact or in staff_mail_post as a log.
+
+ARCHITECT: Emit JSON Task DAG only (uuid, file, blocked_by, role). Exactly one Developer task owns src/main.cpp; terminal ForgeMaster node integration_build blocked by all implementation files + CMakeLists.txt. Use conventional paths only (include/*.hpp, src/*.cpp, scripts/verify_*.sh, CMakeLists.txt) with PascalCase stems — no neon_arch_* or task_* filenames. COMMON ROOM: every role posts short human updates (common_room_post) and reads the transcript before large changes. DEVELOPERS: parallel implementation — no int main() except the entry task; .cpp must #include project headers. SENTINEL: orthogonal audit. FULL AUTONOMOUS MODE.
+Start Time: 1778590638
+Idle stall budget: 3600s (SOVEREIGN_SMOKE_TIMEOUT_SEC; pauses while tasks are active)
+
+Progress signals (do not rely on a flat task histogram alone):
+  · [PIPELINE_METRICS] JSON — Crucible / Sentinel / shadow / peer-review counters (also on smoke_trace lines as metrics=…).
+  · [SOFTWARE_HOUSE] — one-word lane snapshot per role (Arch/Dev/Sent/Forge/QA + Peer).
+  · Task lines: activity= current phase; tick≈5s liveness while the worker holds the task.
+  · SDK / Crucible update `activity` with explicit stages (inference, peer gate, Sentinel, shadow).
+  · smoke_debug.ndjson — structured NDJSON (Architect DAG + blackboard + Crucible); SOVEREIGN_SMOKE_TICK_LOG=1 for per-second smoke_poll_tick rows.
+
+[SMOKE_PHASE] entering 1s swarm poll loop
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_capped":0,"peer_gate_empty_issues":0,"peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":0}
+--- Swarm State Audit [0s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update; agent=checked-out worker id or unassigned while queued)
+ TASK: TASK-17785906380405556 [InProgress] role=Architect agent=Enid file=neon_smoke_software_house_dag_emit.md prog=0% toks=0 HB=0s ago tick=1(~5s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap  EXECUTIVE SYNTHESIS (skipped): proceed from user brief only.   CROSS_RUN_SWARM..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_capped":0,"peer_gate_empty_issues":0,"peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":5}
+--- Swarm State Audit [5s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update; agent=checked-out worker id or unassigned while queued)
+ TASK: TASK-17785906380405556 [InProgress] role=Architect agent=Enid file=neon_smoke_software_house_dag_emit.md prog=0% toks=0 HB=1s ago tick=2(~10s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap  EXECUTIVE SYNTHESIS (skipped): proceed from user brief only.   CROSS_RUN_SWARM..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_capped":0,"peer_gate_empty_issues":0,"peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":10}
+--- Swarm State Audit [10s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update; agent=checked-out worker id or unassigned while queued)
+ TASK: TASK-17785906380405556 [InProgress] role=Architect agent=Enid file=neon_smoke_software_house_dag_emit.md prog=0% toks=0 HB=1s ago tick=3(~15s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap  EXECUTIVE SYNTHESIS (skipped): proceed from user brief only.   CROSS_RUN_SWARM..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_capped":0,"peer_gate_empty_issues":0,"peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":15}
+--- Swarm State Audit [15s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update; agent=checked-out worker id or unassigned while queued)
+ TASK: TASK-17785906380405556 [InProgress] role=Architect agent=Enid file=neon_smoke_software_house_dag_emit.md prog=0% toks=0 HB=1s ago tick=4(~20s) activity="Decomposing Mandate into DAG..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap  EXECUTIVE SYNTHESIS (skipped): proceed from user brief only.   CROSS_RUN_SWARM..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_capped":0,"peer_gate_empty_issues":0,"peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":20}
+--- Swarm State Audit [20s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update; agent=checked-out worker id or unassigned while queued)
+ TASK: TASK-17785906380405556 [InProgress] role=Architect agent=Enid file=neon_smoke_software_house_dag_emit.md prog=0% toks=150 HB=0s ago tick=5(~25s) activity="Cognitive Synthesis (150 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap  EXECUTIVE SYNTHESIS (skipped): proceed from user brief only.   CROSS_RUN_SWARM..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_capped":0,"peer_gate_empty_issues":0,"peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":25}
+--- Swarm State Audit [25s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update; agent=checked-out worker id or unassigned while queued)
+ TASK: TASK-17785906380405556 [InProgress] role=Architect agent=Enid file=neon_smoke_software_house_dag_emit.md prog=0% toks=550 HB=0s ago tick=6(~30s) activity="Cognitive Synthesis (550 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap  EXECUTIVE SYNTHESIS (skipped): proceed from user brief only.   CROSS_RUN_SWARM..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_capped":0,"peer_gate_empty_issues":0,"peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":30}
+--- Swarm State Audit [30s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update; agent=checked-out worker id or unassigned while queued)
+ TASK: TASK-17785906380405556 [InProgress] role=Architect agent=Enid file=neon_smoke_software_house_dag_emit.md prog=0% toks=900 HB=0s ago tick=7(~35s) activity="Cognitive Synthesis (900 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap  EXECUTIVE SYNTHESIS (skipped): proceed from user brief only.   CROSS_RUN_SWARM..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_capped":0,"peer_gate_empty_issues":0,"peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":35}
+--- Swarm State Audit [35s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update; agent=checked-out worker id or unassigned while queued)
+ TASK: TASK-17785906380405556 [InProgress] role=Architect agent=Enid file=neon_smoke_software_house_dag_emit.md prog=0% toks=1200 HB=0s ago tick=8(~40s) activity="Cognitive Synthesis (1200 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap  EXECUTIVE SYNTHESIS (skipped): proceed from user brief only.   CROSS_RUN_SWARM..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_capped":0,"peer_gate_empty_issues":0,"peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":40}
+--- Swarm State Audit [40s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update; agent=checked-out worker id or unassigned while queued)
+ TASK: TASK-17785906380405556 [InProgress] role=Architect agent=Enid file=neon_smoke_software_house_dag_emit.md prog=0% toks=1450 HB=0s ago tick=9(~45s) activity="Cognitive Synthesis (1450 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap  EXECUTIVE SYNTHESIS (skipped): proceed from user brief only.   CROSS_RUN_SWARM..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_capped":0,"peer_gate_empty_issues":0,"peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":45}
+--- Swarm State Audit [45s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update; agent=checked-out worker id or unassigned while queued)
+ TASK: TASK-17785906380405556 [InProgress] role=Architect agent=Enid file=neon_smoke_software_house_dag_emit.md prog=0% toks=50 HB=0s ago tick=10(~50s) activity="Cognitive Synthesis (50 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap  EXECUTIVE SYNTHESIS (skipped): proceed from user brief only.   CROSS_RUN_SWARM..."
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=no swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=architect_planning
+[SOFTWARE_HOUSE] Arch=planning Dev=idle Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_capped":0,"peer_gate_empty_issues":0,"peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":50}
+--- Swarm State Audit [50s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update; agent=checked-out worker id or unassigned while queued)
+ TASK: TASK-17785906380405556 [InProgress] role=Architect agent=Enid file=neon_smoke_software_house_dag_emit.md prog=0% toks=100 HB=0s ago tick=11(~55s) activity="Cognitive Synthesis (100 tokens)..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap  EXECUTIVE SYNTHESIS (skipped): proceed from user brief only.   CROSS_RUN_SWARM..."
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=yes swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=swarm_execution
+[SOFTWARE_HOUSE] Arch=done Dev=coding Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":0,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_capped":0,"peer_gate_empty_issues":0,"peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":55}
+--- Swarm State Audit [55s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update; agent=checked-out worker id or unassigned while queued)
+ TASK: TASK-17785906916254199 [InProgress] role=Developer agent=Peter file=src/Subneon_arch_step_0neon_arch_step_0.cpp prog=0% toks=0 HB=2s ago tick=1(~5s) activity="SDK: autonomous codegen starting…" attempts=0 brief="Architect sub-task neon_arch_step_0"
+ TASK: TASK-17785906380405556 [Completed] role=Architect agent=Enid file=neon_smoke_software_house_dag_emit.md prog=0% toks=150 HB=2s ago tick=11(~55s) activity="Alternate-tier DAG synthesis..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap  EXECUTIVE SYNTHESIS (skipped): proceed from user brief only.   CROSS_RUN_SWARM..."
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[SMOKE_VERDICT_PREVIEW] seed_done=yes swarm_idle=no non_seed_completed=0 (pass rule: >=1 non-seed Completed with non-empty artifact files)
+[PIPELINE] stage=swarm_execution
+[SOFTWARE_HOUSE] Arch=done Dev=coding Sent=idle Forge=idle QA=idle Peer=idle
+[PIPELINE_METRICS] {"crucible_inner_rounds_started":1,"crucible_successful_commits":0,"format":"neon_pipeline_metrics_v1","peer_gate_capped":0,"peer_gate_empty_issues":0,"peer_gate_passes":0,"peer_gate_runs":0,"peer_revision_cycles":0,"sentinel_acceptances":0,"sentinel_audits":0,"shadow_verify_failures":0,"shadow_verify_successes":0,"swarm_peer_review_approvals":0,"swarm_peer_review_invocations":0,"swarm_peer_review_rejections":0,"wall_s":60}
+--- Swarm State Audit [60s] ---
+ (Legend: activity=last explicit swarm phase; tick~=5s counts while worker holds task; toks=streamed/accumulated; HB=time since last heartbeat/phase update; agent=checked-out worker id or unassigned while queued)
+ TASK: TASK-17785906916254199 [InProgress] role=Developer agent=Peter file=src/Subneon_arch_step_0neon_arch_step_0.cpp prog=0% toks=0 HB=1s ago tick=2(~10s) activity="Crucible: Sentinel adversarial audit · src/Subneon_arch_step_0neon_arch_step_0.cpp" attempts=0 brief="Architect sub-task neon_arch_step_0"
+ TASK: TASK-17785906380405556 [Completed] role=Architect agent=Enid file=neon_smoke_software_house_dag_emit.md prog=0% toks=150 HB=7s ago tick=11(~55s) activity="Alternate-tier DAG synthesis..." attempts=0 brief="SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap  EXECUTIVE SYNTHESIS (skipped): proceed from user brief only.   CROSS_RUN_SWARM..."
+
+=== SIMULATION TERMINAL ===
+[PIPELINE_TELEMETRY] wrote pipeline_telemetry.json (composed Crucible / peer / Sentinel cycles)
+Final State: SUCCESS
+Seed: Completed | SwarmIdle: Yes | OutputsOK: Yes | IntegrationOK: N/A
