@@ -1,0 +1,1743 @@
+=== NEON SOVEREIGN SMOKE TEST ARCHIVE ===
+Simulation ID: 5
+Mandate: SOFTWARE HOUSE MANDATE: Lead a parallelized engineering swarm to design and implement a high-concurrency C++20 Distributed Key-Value Store. 
+1. ARCHITECT: Design the JSON Task DAG with AST UUID pointers.
+2. UX SPECIALIST: Blueprint the Spatial Constraint Graph for the monitoring UI.
+3. DEVELOPERS: Execute parallel workstreams for Raft replication and UI layers.
+4. SENTINEL: Perform final logic audit and sign-off.
+Execute in FULL AUTONOMOUS MODE.
+Start Time: 1778106058
+
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781060587106416 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781060587106416 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781060587106416 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781060587106416 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781060587106416 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781060587106416 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781060587106416 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781060587106416 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781060587106416 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781060587106416 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [InProgress] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [InProgress] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [PeerReview] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781061584243700 [BlockedWaiting] -> raft_core.hpp
+ TASK: TASK-17781060587106416 [Completed] -> server.cpp
+ TASK: TASK-17781061584243173 [InProgress] -> kv_store.hpp
+ TASK: TASK-17781061584243603 [InProgress] -> raft_log.hpp
+ TASK: TASK-17781061584243765 [InProgress] -> network_manager.hpp
+ TASK: TASK-17781061584243990 [Completed] -> sentinel_audit.cpp
+ TASK: TASK-17781061584243837 [InProgress] -> server.cpp
+ TASK: TASK-17781061584243909 [InProgress] -> ui_spatial_graph.json
+
+=== SIMULATION TERMINAL ===
+Final State: TIMEOUT

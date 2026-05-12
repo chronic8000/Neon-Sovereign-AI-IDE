@@ -1,0 +1,1883 @@
+=== NEON SOVEREIGN SMOKE TEST ARCHIVE ===
+Simulation ID: 42
+Debug: C:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\42/smoke_trace.txt
+Mandate: SOFTWARE HOUSE MANDATE (user brief): Make a C++ application that shows loads of information from free API's that exist online. Random stuff. Whatever you want. Use your brain! Something like a magic mirror app that uses free API's to show weather and other pointless life information like news and events or something
+
+ARCHITECT: Emit JSON Task DAG only (uuid, file, blocked_by, role). DEVELOPERS: parallel implementation. SENTINEL: orthogonal audit. FULL AUTONOMOUS MODE.
+Start Time: 1778201131
+
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [0s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 0, HB: 0s ago, State: Decomposing Mandate into DAG...)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [10s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 3)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [20s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 5)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [30s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 7)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [40s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 9)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [50s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 11)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [60s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 13)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [70s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 15)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [80s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 17)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [90s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 19)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [100s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 21)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [110s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 23)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [120s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 25)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [130s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 27)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [140s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 50, HB: 1s ago, State: Agential Reasoning Phase 29)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [150s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 100, HB: 1s ago, State: Agential Reasoning Phase 31)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [160s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 150, HB: 1s ago, State: Agential Reasoning Phase 33)
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+--- Swarm State Audit [170s] ---
+ TASK: TASK-17782011312204474 [InProgress] -> server.cpp (Tokens: 250, HB: 1s ago, State: Agential Reasoning Phase 35)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [180s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Generating Implementation...)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [190s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 3)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 11s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [200s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 5)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 21s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [210s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 7)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 31s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [220s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 9)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 41s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [230s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 11)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 51s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [240s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 13)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 62s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [250s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 15)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 72s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [260s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 17)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 82s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [270s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 19)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 92s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [280s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 21)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 102s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [290s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 23)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 112s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [300s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 25)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 122s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [310s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 27)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 132s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [320s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 29)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 142s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [330s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 31)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 152s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [340s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 33)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 162s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [350s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 35)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 172s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [360s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 182s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [370s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 39)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 192s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [380s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 41)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 202s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [390s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 43)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 212s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [400s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 45)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 223s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [410s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 47)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 233s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [420s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 49)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 243s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [430s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 51)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 253s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [440s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 53)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 263s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [450s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 55)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 273s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [460s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 57)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 283s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=5 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+--- Swarm State Audit [470s] ---
+ TASK: TASK-17782013124886477 [InProgress] -> server.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 59)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 293s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Pending] -> api_client.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Pending] -> data_models.hpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [480s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 2s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 303s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 1s ago, State: Generating Implementation...)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 1s ago, State: Generating Implementation...)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [490s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 12s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 313s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 3)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 3)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [500s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 22s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 323s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 5)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 5)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [510s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 32s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 333s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 7)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 7)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [520s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 42s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 343s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 9)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 9)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [530s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 52s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 353s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 11)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 11)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [540s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 62s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 363s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 13)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 13)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [550s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 72s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 373s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 15)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 15)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [560s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 82s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 383s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 17)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 17)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [570s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 92s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 394s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 19)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 19)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [580s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 102s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 404s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 21)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 21)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [590s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 112s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 414s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 23)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 23)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [600s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 122s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 424s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 25)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 25)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [610s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 132s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 434s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 27)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 27)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [620s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 142s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 444s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 29)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 29)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [630s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 152s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 454s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 31)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 31)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [640s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 163s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 464s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 33)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 33)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [650s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 173s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 474s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 35)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 35)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [660s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 183s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 484s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [670s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 193s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 494s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 39)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 39)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [680s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 203s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 504s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 41)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 41)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [690s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 213s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 514s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 43)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 43)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [700s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 223s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 524s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 45)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 45)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [710s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 233s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 534s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 47)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 47)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [720s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 243s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 544s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 49)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 49)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [730s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 253s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 554s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 51)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 51)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [740s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 263s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 564s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 53)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 53)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [750s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 273s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 574s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 55)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 55)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [760s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 283s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 584s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 57)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 57)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [770s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 293s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 594s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 59)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 59)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [780s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 303s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 605s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [790s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 313s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 615s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 63)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 63)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [800s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 323s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 625s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 65)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 65)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [810s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 333s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 635s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 67)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 67)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [820s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 343s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 645s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 69)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 69)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [830s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 354s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 655s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 71)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 71)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [840s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 364s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 665s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 73)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 73)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [850s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 374s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 675s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 75)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 75)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [860s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 384s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 685s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 77)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 77)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [870s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 394s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 695s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 79)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 79)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [880s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 404s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 705s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 81)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 81)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [890s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 414s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 715s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 83)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 83)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [900s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 424s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 725s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 85)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 85)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [910s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 434s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 735s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 87)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 87)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [920s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 444s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 745s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 89)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 89)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [930s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 454s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 755s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 91)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 91)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [940s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 464s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 765s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 93)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 3s ago, State: Agential Reasoning Phase 93)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [950s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 474s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 775s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 95)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 95)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [960s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 484s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 786s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 97)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 97)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [970s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 494s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 796s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 99)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 99)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [980s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 504s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 806s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 101)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 101)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [990s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 514s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 816s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 103)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 103)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1000s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 524s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 826s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 105)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 105)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1010s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 535s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 836s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 107)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 107)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1020s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 545s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 846s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 109)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 109)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1030s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 555s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 856s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 111)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 111)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1040s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 565s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 866s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 113)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 113)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1050s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 575s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 876s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 115)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 115)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1060s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 585s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 886s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 117)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 117)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1070s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 595s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 896s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 119)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 119)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1080s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 605s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 906s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 121)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 121)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1090s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 615s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 916s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 123)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 123)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1100s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 625s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 927s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 125)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 125)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1110s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 635s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 937s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 127)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 127)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1120s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 645s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 947s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 129)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 129)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1130s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 655s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 957s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 132)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 132)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1140s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 666s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 967s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 134)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 134)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1150s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 676s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 977s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 136)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 136)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1160s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 686s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 987s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 138)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 138)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1170s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 696s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 997s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 140)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 140)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1180s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 706s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1007s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 142)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 142)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1190s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 716s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1017s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 144)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 144)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1200s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 726s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1027s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 146)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 146)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1210s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 736s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1037s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 148)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 148)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1220s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 746s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1047s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 150)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 150)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1230s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 756s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1057s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 152)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 152)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1240s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 766s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1067s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 154)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 154)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1250s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 776s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1078s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 156)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 156)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1260s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 786s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1088s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 158)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 158)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1270s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 796s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1098s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 160)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 160)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1280s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 807s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1108s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 162)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 162)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1290s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 817s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1118s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 164)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 164)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1300s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 827s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1128s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 166)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 166)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1310s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 837s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1138s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 168)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 168)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1320s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 847s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1148s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 170)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 170)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1330s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 857s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1158s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 172)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 172)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1340s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 867s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1168s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 174)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 174)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1350s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 877s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1179s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 176)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 1s ago, State: Agential Reasoning Phase 176)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1360s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 888s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1189s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 178)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 178)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1370s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 898s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1199s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 180)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 180)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1380s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 908s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1209s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 182)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 182)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1390s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 918s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1219s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 184)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 184)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1400s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 928s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1229s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 186)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 186)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1410s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 938s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1239s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 188)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 188)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1420s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 948s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1250s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 190)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 190)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1430s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 958s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1260s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 192)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 192)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1440s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 968s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1270s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 194)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 194)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=3 InProgress/Claimed=2 Completed=2 Stalled=0 Other=0
+--- Swarm State Audit [1450s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 978s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1280s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [InProgress] -> api_client.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [Pending] -> api_client.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=2 Completed=3 Stalled=0 Other=0
+--- Swarm State Audit [1460s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 989s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1290s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 12s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 2)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 198)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=2 Completed=3 Stalled=0 Other=0
+--- Swarm State Audit [1470s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 999s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1300s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 22s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 4)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 200)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=2 Completed=3 Stalled=0 Other=0
+--- Swarm State Audit [1480s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1009s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1310s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 32s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 6)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 202)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=2 Completed=3 Stalled=0 Other=0
+--- Swarm State Audit [1490s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1019s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1320s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 42s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 8)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 204)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=2 Completed=3 Stalled=0 Other=0
+--- Swarm State Audit [1500s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1029s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1330s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 53s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 10)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 206)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=2 Completed=3 Stalled=0 Other=0
+--- Swarm State Audit [1510s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1039s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1340s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 63s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 12)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 208)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=2 Completed=3 Stalled=0 Other=0
+--- Swarm State Audit [1520s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1049s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1350s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 73s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 14)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 210)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=2 Completed=3 Stalled=0 Other=0
+--- Swarm State Audit [1530s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1059s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1361s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 83s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 16)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [InProgress] -> data_models.hpp (Tokens: 0, HB: 2s ago, State: Agential Reasoning Phase 212)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1540s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1069s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1371s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 93s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 18)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 8s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1550s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1079s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1381s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 103s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 20)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 18s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1560s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1089s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1391s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 113s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 22)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 28s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1570s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1099s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1401s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 123s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 24)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 38s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1580s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1110s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1411s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 133s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 26)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 48s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1590s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1120s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1421s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 143s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 28)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 58s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1600s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1130s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1431s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 153s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 4s ago, State: Agential Reasoning Phase 30)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 68s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1610s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1140s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1441s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 163s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 33)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 78s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1620s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1150s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1451s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 173s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 35)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 88s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1630s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1160s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1461s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 184s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 98s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1640s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1170s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1471s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 194s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 39)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 108s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1650s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1180s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1481s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 204s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 41)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 118s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1660s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1190s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1492s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 214s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 43)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 128s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1670s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1200s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1502s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 224s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 45)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 139s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1680s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1210s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1512s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 234s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 47)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 149s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1690s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1220s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1522s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 244s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 49)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 159s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1700s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1230s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1532s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 254s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 51)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 169s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1710s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1241s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1542s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 264s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 53)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 179s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1720s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1251s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1552s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 274s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 55)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 189s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1730s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1261s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1562s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 284s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 57)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 199s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1740s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1271s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1572s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 294s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 59)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 209s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1750s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1281s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1582s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 304s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 219s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=1 inference_slots=1/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=1 Completed=4 Stalled=0 Other=0
+--- Swarm State Audit [1760s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1291s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1592s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 314s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [InProgress] -> api_client.cpp (Tokens: 0, HB: 0s ago, State: Agential Reasoning Phase 63)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 229s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=0 Completed=5 Stalled=0 Other=0
+--- Swarm State Audit [1770s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1301s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1602s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 325s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [Completed] -> api_client.cpp (Tokens: 715, HB: 4s ago, State: Generating Implementation...)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 239s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=0 Completed=5 Stalled=0 Other=0
+--- Swarm State Audit [1780s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1311s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1612s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 335s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [Completed] -> api_client.cpp (Tokens: 715, HB: 4s ago, State: Agential Reasoning Phase 3)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 249s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+[GOVERNOR] live_workers=0 inference_slots=0/2 accept=1
+[HISTOGRAM] tasks total=7 Pending=2 InProgress/Claimed=0 Completed=5 Stalled=0 Other=0
+--- Swarm State Audit [1790s] ---
+ TASK: TASK-17782013124886477 [Completed] -> server.hpp (Tokens: 474, HB: 1321s ago, State: Agential Reasoning Phase 61)
+ TASK: TASK-17782011312204474 [Completed] -> server.cpp (Tokens: 300, HB: 1622s ago, State: Agential Reasoning Phase 37)
+ TASK: TASK-17782013124886718 [Completed] -> api_client.hpp (Tokens: 1315, HB: 345s ago, State: Agential Reasoning Phase 196)
+ TASK: TASK-17782013124886887 [Completed] -> api_client.cpp (Tokens: 715, HB: 0s ago, State: Agential Reasoning Phase 6)
+ TASK: TASK-17782013124887107 [Pending] -> config.h (Tokens: 0, HB: N/A, State: Initializing...)
+ TASK: TASK-17782013124886966 [Completed] -> data_models.hpp (Tokens: 462, HB: 259s ago, State: Agential Reasoning Phase 213)
+ TASK: TASK-17782013124887041 [Pending] -> main.cpp (Tokens: 0, HB: N/A, State: Initializing...)
+
+=== SIMULATION TERMINAL ===
+Final State: TIMEOUT

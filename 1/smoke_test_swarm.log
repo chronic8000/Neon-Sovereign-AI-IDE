@@ -1,0 +1,1737 @@
+=== NEON SOVEREIGN SMOKE TEST ARCHIVE ===
+Simulation ID: 1
+Mandate: SOFTWARE HOUSE MANDATE: Lead a parallelized engineering swarm to design and implement a high-concurrency C++20 Distributed Key-Value Store. 
+1. ARCHITECT: Design the JSON Task DAG with AST UUID pointers.
+2. UX SPECIALIST: Blueprint the Spatial Constraint Graph for the monitoring UI.
+3. DEVELOPERS: Execute parallel workstreams for Raft replication and UI layers.
+4. SENTINEL: Perform final logic audit and sign-off.
+Execute in FULL AUTONOMOUS MODE.
+Start Time: 1778103772
+
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: InProgress, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781037724794315 [InProgress] -> server.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+[SMOKE_TEST] Swarm Processing... (Seed: Completed, Active Sub-Tasks: Yes)
+--- Swarm State Audit ---
+ TASK: TASK-17781040863679423 [Pending] -> raft_consensus.cpp
+ TASK: TASK-17781037724794315 [Completed] -> server.cpp
+ TASK: TASK-17781040863678861 [Pending] -> common.hpp
+ TASK: TASK-17781040863679115 [Pending] -> storage_engine.cpp
+ TASK: TASK-17781040863679509 [Pending] -> network_layer.cpp
+ TASK: TASK-17781040863679648 [Pending] -> spatial_graph_ui.js
+ TASK: TASK-17781040863679561 [Pending] -> server.cpp
+ TASK: TASK-17781040863679605 [Pending] -> monitor_backend.cpp
+ TASK: TASK-17781040863679689 [Pending] -> sentinel_audit.cpp
+
+=== SIMULATION TERMINAL ===
+Final State: TIMEOUT

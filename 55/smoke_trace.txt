@@ -1,0 +1,46 @@
+=== SMOKE TRACE (forensic) ===
+simulation_id=55
+cwd=C:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src
+smoke_path=C:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\55
+SOVEREIGN_LOGIC_MODEL=gemma-4-e2b-it-q4_k_m
+SOVEREIGN_SPEED_MODEL=qwen2.5-coder:1.5b
+resolved_logic_model=gemma-4-e2b-it-q4_k_m
+resolved_speed_model=qwen2.5-coder:1.5b
+ollama_managed_port=11435
+Neon hot-swap: evict/lock are gated; see startup.log for [GOVERNOR]/[SWARM] lines.
+Developer path (default): local offline operator loop — Reason+Act with REAL tool execution (read/write/execute); same doctrine as Neon Sovereign readme (agent product, not chat-only).
+Throughput mode: SOVEREIGN_SDK_SINGLE_SHOT=1 => single inference per task (planSingleShotCodegen); use for CI/smoke velocity, not as the architecture ceiling.
+SOVEREIGN_REACT_MAX_STEPS=<4-128> deepens multi-step work when refactors need more turns.
+SOVEREIGN_REPO_ROOT=<dir> pins smoke-test under <dir>/smoke-test .
+[0s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[10s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[20s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[30s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[40s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[50s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[60s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[70s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[80s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[90s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=1 Pending=0 InProgress/Claimed=1 Completed=0 Stalled=0 Other=0
+[100s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[110s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[120s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[130s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[140s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[150s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[160s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[170s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[180s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[190s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[200s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[210s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[220s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[230s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[240s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[250s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[260s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[270s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[280s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[290s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[300s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
+[310s] [GOVERNOR] live_workers=1 inference_slots=1/2 accept=1 | [HISTOGRAM] tasks total=2 Pending=0 InProgress/Claimed=1 Completed=1 Stalled=0 Other=0
