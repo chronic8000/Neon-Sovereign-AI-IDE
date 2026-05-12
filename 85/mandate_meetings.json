@@ -1,0 +1,36 @@
+{
+  "created_unix": 1778521460,
+  "format": "neon_mandate_meetings_v1",
+  "phases": [
+    {
+      "parse_ok": false,
+      "parsed": {
+        "ceo_summary": "",
+        "constraints": [],
+        "cpo_summary": "",
+        "modality": "other",
+        "rationale": "parse_fallback"
+      },
+      "phase": "demand_modality",
+      "raw": "{\n\"modality\": \"cli_tool\",\n\"rationale\": \"The requirement is for a headless CI utility that integrates into existing smoke test scripts, making a CLI-driven server the most portable and integrable approach.\",\n\"constraints\": [\n\"Must be headless with no GUI dependencies\",\n\"Implement a minimal HTTP echo endpoint that returns the received payload\",\n\"All logs must be emitted in a structured JSON format for CI parsing\",\n\"Must integrate with the existing .\\build.bat and .\\scripts\\run-smoke-ci.ps1 workflow\",\n\"Low resource overhead to minimize CI pipeline latency\"\n],\n\"ceo_summary\": \"We are strengthening our delivery guarantee by automating network-layer verification within our CI pipeline.\",\n\"cpo_summary\": \"We will deploy a lightweight, structured-logging echo server to provide deterministic connectivity validation during smoke tests.\"\n}"
+    },
+    {
+      "parse_ok": true,
+      "parsed": {
+        "build_notes": "Integrate into existing CMake build system; compile via build.bat using MSVC; target C++20; ensure the echo server is a standalone executable for headless CI execution.",
+        "cto_summary": "Deploying a lightweight C++20 HTTP echo server to provide deterministic network verification for the CI smoke test suite.",
+        "primary_language": "cpp",
+        "risks": [
+          "Port conflicts during parallel CI runs",
+          "Dependency overhead for minimal HTTP implementation"
+        ],
+        "secondary_languages": [
+          "powershell",
+          "json"
+        ]
+      },
+      "phase": "stack_choice",
+      "raw": "{\n\"primary_language\": \"cpp\",\n\"secondary_languages\": [\"powershell\", \"json\"],\n\"build_notes\": \"Integrate into existing CMake build system; compile via build.bat using MSVC; target C++20; ensure the echo server is a standalone executable for headless CI execution.\",\n\"risks\": [\"Port conflicts during parallel CI runs\", \"Dependency overhead for minimal HTTP implementation\"],\n\"cto_summary\": \"Deploying a lightweight C++20 HTTP echo server to provide deterministic network verification for the CI smoke test suite.\"\n}"
+    }
+  ]
+}

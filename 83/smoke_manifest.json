@@ -1,0 +1,62 @@
+{
+  "dag_malform_ndjson": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\83/dag_malform.ndjson",
+  "demand_phase": {
+    "ceo_summary": "We will deliver a high-performance, industrial-grade echo server that establishes a foundation for low-latency communication.",
+    "constraints": [
+      "Use a lightweight, modern C++ HTTP library (e.g., cpp-httplib or Boost.Beast).",
+      "Implement structured logging outputting JSON to stdout for observability.",
+      "Ensure the build system is based on CMake for portability and integration with build.bat.",
+      "The server must echo the exact request body and relevant headers in the response.",
+      "Minimize external dependencies to ensure a small binary footprint."
+    ],
+    "cpo_summary": "The product will be a lean C++ binary utilizing structured logging to ensure rapid deployment and seamless observability integration.",
+    "modality": "api_service",
+    "rationale": "The request is for an HTTP server, which is a network-facing service designed to handle requests and responses, fitting the api_service profile."
+  },
+  "executive_meetings_ran": true,
+  "format": "neon_smoke_manifest_v1",
+  "idle_stall_budget_sec": 3600,
+  "pipeline_chain": [
+    "executive_demand",
+    "executive_stack",
+    "architect_dag_emit",
+    "parallel_development",
+    "peer_and_sentinel",
+    "crucible_verify",
+    "artifact_packaging"
+  ],
+  "resolved_crucible_peer_gate": "off",
+  "resolved_logic_model": "gemma-4-31b-it-q4_k_m",
+  "resolved_speed_model": "qwen2.5-coder:7b-q5_k_m",
+  "simulation_id": 83,
+  "smoke_audit_interval_sec": 5,
+  "smoke_debug_ndjson": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\83/smoke_debug.ndjson",
+  "smoke_full_pipeline": false,
+  "smoke_path": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\83",
+  "smoke_tick_log": false,
+  "stack_phase": {
+    "build_notes": "CMake build system compatible with build.bat; target C++20; use cpp-httplib for minimal footprint and easy integration.",
+    "cto_summary": "Implementing a high-performance, C++20-based HTTP echo server using cpp-httplib and structured JSON logging for maximum observability and minimal overhead.",
+    "primary_language": "cpp",
+    "risks": [
+      "Dependency resolution for lightweight HTTP libraries",
+      "Potential performance bottlenecks in structured logging synchronization",
+      "Header parsing edge cases for varied HTTP clients"
+    ],
+    "secondary_languages": [
+      "json"
+    ]
+  },
+  "staff_mail_mirror": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\83/staff_mail.jsonl",
+  "started_unix": 1778510667,
+  "ui_pipeline_hints": [
+    "architect_planning",
+    "swarm_execution",
+    "output_verification",
+    "executive_meetings",
+    "composed_review_cycles",
+    "composed_test_cycles",
+    "docs_packaging"
+  ],
+  "user_brief": "Build a minimal HTTP echo server with structured logging in C++"
+}

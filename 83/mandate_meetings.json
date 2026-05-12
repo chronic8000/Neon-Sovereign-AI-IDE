@@ -1,0 +1,42 @@
+{
+  "created_unix": 1778510667,
+  "format": "neon_mandate_meetings_v1",
+  "phases": [
+    {
+      "parse_ok": true,
+      "parsed": {
+        "ceo_summary": "We will deliver a high-performance, industrial-grade echo server that establishes a foundation for low-latency communication.",
+        "constraints": [
+          "Use a lightweight, modern C++ HTTP library (e.g., cpp-httplib or Boost.Beast).",
+          "Implement structured logging outputting JSON to stdout for observability.",
+          "Ensure the build system is based on CMake for portability and integration with build.bat.",
+          "The server must echo the exact request body and relevant headers in the response.",
+          "Minimize external dependencies to ensure a small binary footprint."
+        ],
+        "cpo_summary": "The product will be a lean C++ binary utilizing structured logging to ensure rapid deployment and seamless observability integration.",
+        "modality": "api_service",
+        "rationale": "The request is for an HTTP server, which is a network-facing service designed to handle requests and responses, fitting the api_service profile."
+      },
+      "phase": "demand_modality",
+      "raw": "{\n\"modality\": \"api_service\",\n\"rationale\": \"The request is for an HTTP server, which is a network-facing service designed to handle requests and responses, fitting the api_service profile.\",\n\"constraints\": [\n\"Use a lightweight, modern C++ HTTP library (e.g., cpp-httplib or Boost.Beast).\",\n\"Implement structured logging outputting JSON to stdout for observability.\",\n\"Ensure the build system is based on CMake for portability and integration with build.bat.\",\n\"The server must echo the exact request body and relevant headers in the response.\",\n\"Minimize external dependencies to ensure a small binary footprint.\"\n],\n\"ceo_summary\": \"We will deliver a high-performance, industrial-grade echo server that establishes a foundation for low-latency communication.\",\n\"cpo_summary\": \"The product will be a lean C++ binary utilizing structured logging to ensure rapid deployment and seamless observability integration.\"\n}"
+    },
+    {
+      "parse_ok": true,
+      "parsed": {
+        "build_notes": "CMake build system compatible with build.bat; target C++20; use cpp-httplib for minimal footprint and easy integration.",
+        "cto_summary": "Implementing a high-performance, C++20-based HTTP echo server using cpp-httplib and structured JSON logging for maximum observability and minimal overhead.",
+        "primary_language": "cpp",
+        "risks": [
+          "Dependency resolution for lightweight HTTP libraries",
+          "Potential performance bottlenecks in structured logging synchronization",
+          "Header parsing edge cases for varied HTTP clients"
+        ],
+        "secondary_languages": [
+          "json"
+        ]
+      },
+      "phase": "stack_choice",
+      "raw": "{\"primary_language\":\"cpp\",\"secondary_languages\":[\"json\"],\"build_notes\":\"CMake build system compatible with build.bat; target C++20; use cpp-httplib for minimal footprint and easy integration.\",\"risks\":[\"Dependency resolution for lightweight HTTP libraries\",\"Potential performance bottlenecks in structured logging synchronization\",\"Header parsing edge cases for varied HTTP clients\"],\"cto_summary\":\"Implementing a high-performance, C++20-based HTTP echo server using cpp-httplib and structured JSON logging for maximum observability and minimal overhead.\"}"
+    }
+  ]
+}

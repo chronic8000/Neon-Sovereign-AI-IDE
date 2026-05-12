@@ -1,0 +1,63 @@
+{
+  "dag_malform_ndjson": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\84/dag_malform.ndjson",
+  "demand_phase": {
+    "ceo_summary": "We are hardening our CI/CD pipeline by introducing a dedicated verification utility to guarantee network and logging reliability.",
+    "constraints": [
+      "Must run in headless mode with no GUI dependencies",
+      "Must implement structured JSON logging for machine-readability",
+      "Must provide a minimal HTTP echo endpoint that returns request payloads",
+      "Must be compatible with the existing PROJECT_SMOKE_COMMAND infrastructure",
+      "Must support a fast startup and shutdown cycle for CI efficiency"
+    ],
+    "cpo_summary": "We will build a minimal, deterministic HTTP echo server that serves as a reliable anchor for our automated smoke test suite.",
+    "modality": "cli_tool",
+    "rationale": "A lightweight CLI utility is optimal for headless CI environments, providing a low-overhead way to spin up a verification target and validate logging pipelines without requiring a full service deployment."
+  },
+  "executive_meetings_ran": true,
+  "format": "neon_smoke_manifest_v1",
+  "idle_stall_budget_sec": 3600,
+  "pipeline_chain": [
+    "executive_demand",
+    "executive_stack",
+    "architect_dag_emit",
+    "parallel_development",
+    "peer_and_sentinel",
+    "crucible_verify",
+    "artifact_packaging"
+  ],
+  "resolved_crucible_peer_gate": "off",
+  "resolved_logic_model": "gemma-4-31b-it-q4_k_m:latest",
+  "resolved_speed_model": "qwen2.5-coder:1.5b",
+  "simulation_id": 84,
+  "smoke_audit_interval_sec": 5,
+  "smoke_debug_ndjson": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\84/smoke_debug.ndjson",
+  "smoke_full_pipeline": false,
+  "smoke_path": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\84",
+  "smoke_tick_log": false,
+  "stack_phase": {
+    "build_notes": "Utilize CMake with MSVC, targeting C++20. Integrate into existing build.bat. Use a lightweight header-only HTTP library (e.g., cpp-httplib) to minimize binary footprint and startup latency.",
+    "cto_summary": "We will implement a high-performance C++20 headless echo server with structured JSON logging to provide a deterministic verification anchor for the CI smoke-test suite.",
+    "primary_language": "cpp",
+    "risks": [
+      "Port contention in parallel CI runners",
+      "Dependency management for JSON serialization",
+      "Network timeout synchronization in headless environments"
+    ],
+    "secondary_languages": [
+      "powershell",
+      "json"
+    ]
+  },
+  "staff_mail_mirror": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\84/staff_mail.jsonl",
+  "started_unix": 1778513732,
+  "ui_pipeline_hints": [
+    "architect_planning",
+    "swarm_execution",
+    "output_verification",
+    "executive_meetings",
+    "composed_review_cycles",
+    "composed_test_cycles",
+    "docs_packaging"
+  ],
+  "user_brief": "Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging"
+}

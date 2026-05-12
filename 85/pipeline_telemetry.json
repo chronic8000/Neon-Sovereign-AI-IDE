@@ -1,0 +1,23 @@
+{
+  "crucible_inner_rounds_started": 50,
+  "crucible_successful_commits": 0,
+  "flush_reason": "swarm_audit",
+  "format": "neon_pipeline_telemetry_partial_v1",
+  "integration_configure_ok": 0,
+  "integration_link_ok": 0,
+  "integration_repair_rounds": 0,
+  "integration_verify_ok": 0,
+  "peer_gate_passes": 4,
+  "peer_gate_runs": 50,
+  "peer_revision_cycles": 46,
+  "sentinel_acceptances": 3,
+  "sentinel_audits": 4,
+  "shadow_compile_failures": 0,
+  "shadow_lsp_failures": 3,
+  "shadow_verify_failures": 3,
+  "shadow_verify_successes": 0,
+  "swarm_peer_review_approvals": 0,
+  "swarm_peer_review_invocations": 0,
+  "swarm_peer_review_rejections": 0,
+  "wall_s": 8135
+}

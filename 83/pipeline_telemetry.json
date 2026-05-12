@@ -1,0 +1,17 @@
+{
+  "crucible_inner_rounds_started": 21,
+  "crucible_successful_commits": 0,
+  "flush_reason": "swarm_audit",
+  "format": "neon_pipeline_telemetry_partial_v1",
+  "peer_gate_passes": 0,
+  "peer_gate_runs": 0,
+  "peer_revision_cycles": 0,
+  "sentinel_acceptances": 0,
+  "sentinel_audits": 21,
+  "shadow_verify_failures": 0,
+  "shadow_verify_successes": 0,
+  "swarm_peer_review_approvals": 0,
+  "swarm_peer_review_invocations": 0,
+  "swarm_peer_review_rejections": 0,
+  "wall_s": 2400
+}

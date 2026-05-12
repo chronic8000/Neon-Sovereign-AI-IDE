@@ -1,0 +1,59 @@
+{
+  "common_room_mirror": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\85/common_room.jsonl",
+  "dag_malform_ndjson": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\85/dag_malform.ndjson",
+  "demand_phase": {
+    "ceo_summary": "",
+    "constraints": [],
+    "cpo_summary": "",
+    "modality": "other",
+    "rationale": "parse_fallback"
+  },
+  "executive_meetings_ran": true,
+  "format": "neon_smoke_manifest_v1",
+  "idle_stall_budget_sec": 3600,
+  "integration_gate_enabled": true,
+  "pipeline_chain": [
+    "executive_demand",
+    "executive_stack",
+    "architect_dag_emit",
+    "parallel_development",
+    "peer_and_sentinel",
+    "crucible_verify",
+    "artifact_packaging"
+  ],
+  "resolved_crucible_peer_gate": "on",
+  "resolved_logic_model": "gemma-4-31b-it-q4_k_m:latest",
+  "resolved_speed_model": "qwen2.5-coder:1.5b",
+  "simulation_id": 85,
+  "smoke_audit_interval_sec": 5,
+  "smoke_debug_ndjson": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\85/smoke_debug.ndjson",
+  "smoke_full_pipeline": false,
+  "smoke_integrity_profile": "integrity",
+  "smoke_path": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\85",
+  "smoke_tick_log": false,
+  "stack_phase": {
+    "build_notes": "Integrate into existing CMake build system; compile via build.bat using MSVC; target C++20; ensure the echo server is a standalone executable for headless CI execution.",
+    "cto_summary": "Deploying a lightweight C++20 HTTP echo server to provide deterministic network verification for the CI smoke test suite.",
+    "primary_language": "cpp",
+    "risks": [
+      "Port conflicts during parallel CI runs",
+      "Dependency overhead for minimal HTTP implementation"
+    ],
+    "secondary_languages": [
+      "powershell",
+      "json"
+    ]
+  },
+  "staff_mail_mirror": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\85/staff_mail.jsonl",
+  "started_unix": 1778521460,
+  "ui_pipeline_hints": [
+    "architect_planning",
+    "swarm_execution",
+    "output_verification",
+    "executive_meetings",
+    "composed_review_cycles",
+    "composed_test_cycles",
+    "docs_packaging"
+  ],
+  "user_brief": "Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging"
+}
