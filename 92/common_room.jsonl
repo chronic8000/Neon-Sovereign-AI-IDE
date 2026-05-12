@@ -1,0 +1,7 @@
+{"author":"Orchestrator","body":"Common room open — post status, blockers, and interface decisions here. Staff Mail remains for operator questions.","channel":"general","format":"neon_common_room_v1","role":"Software House","unix_ts":1778588650}
+{"author":"TASK-17785886508979277","body":"Task queued for neon_smoke_software_house_dag_emit.md","channel":"blackboard","format":"neon_common_room_v1","role":"0","unix_ts":1778588650}
+{"author":"Enid","body":"Picked up neon_smoke_software_house_dag_emit.md — SOFTWARE HOUSE MANDATE (user brief): Verify Ollama pull and archive bootstrap\n\nEXECUTIVE SYNTHESIS (skipped): proceed from user brief only.\n\n\nCROSS_RUN_SWARM_MEMORY (ledger.db KnowledgeBase; do not repeat recorded failures):\n=== SWARM MEMOR","channel":"swarm","format":"neon_common_room_v1","role":"Architect","unix_ts":1778588650}
+{"author":" Enid","body":"Picked up neon_smoke_software_house_dag_emit.md","channel":"general","format":"neon_common_room_v1","role":"Architect","unix_ts":1778588650}
+{"author":"TASK-17785886860362859","body":"Task queued for src/Applicationstructureneon_arch_step_0.cpp · node neon_arch_step_0","channel":"blackboard","format":"neon_common_room_v1","role":"1","unix_ts":1778588686}
+{"author":"Enid","body":"DAG emitted 1 tasks (0 rejected).","channel":"architect","format":"neon_common_room_v1","role":"Architect","unix_ts":1778588686}
+{"author":"TASK-17785886508979277","body":"Completed neon_smoke_software_house_dag_emit.md","channel":"blackboard","format":"neon_common_room_v1","role":"blackboard","unix_ts":1778588686}

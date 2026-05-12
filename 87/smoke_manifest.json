@@ -1,0 +1,60 @@
+{
+  "common_room_mirror": "c:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\87/common_room.jsonl",
+  "dag_malform_ndjson": "c:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\87/dag_malform.ndjson",
+  "demand_parse_ok": true,
+  "demand_phase": {
+    "ceo_summary": "We are hardening our deployment pipeline by introducing a deterministic verification layer to guarantee network reliability.",
+    "constraints": [],
+    "cpo_summary": "We will implement a lightweight, observable echo service that converts ambiguous network timeouts into precise, structured telemetry.",
+    "modality": "api_service",
+    "rationale": "The requirement for an HTTP echo server necessitates a service modality to handle network requests and provide structured responses for automated CI validation."
+  },
+  "executive_meetings_ran": true,
+  "format": "neon_smoke_manifest_v1",
+  "idle_stall_budget_sec": 3600,
+  "integration_gate_enabled": true,
+  "pipeline_chain": [
+    "executive_demand",
+    "executive_stack",
+    "architect_dag_emit",
+    "parallel_development",
+    "peer_and_sentinel",
+    "crucible_verify",
+    "artifact_packaging"
+  ],
+  "resolved_crucible_peer_gate": "on",
+  "resolved_logic_model": "gemma-4-31b-it-q4_k_m:latest",
+  "resolved_speed_model": "qwen2.5-coder:1.5b",
+  "simulation_id": 87,
+  "smoke_audit_interval_sec": 5,
+  "smoke_debug_ndjson": "c:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\87/smoke_debug.ndjson",
+  "smoke_full_pipeline": false,
+  "smoke_integrity_profile": "integrity",
+  "smoke_path": "c:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\87",
+  "smoke_tick_log": false,
+  "stack_parse_ok": true,
+  "stack_phase": {
+    "build_notes": "CMake build system utilizing MSVC; integrated into build.bat; standalone binary for CI runner with structured logging via spdlog or similar.",
+    "cto_summary": "Implementing a high-performance C++20 echo server to provide deterministic network telemetry for CI smoke tests.",
+    "primary_language": "cpp",
+    "risks": [
+      "Network port contention in shared CI runners",
+      "Dependency overhead for HTTP stack"
+    ],
+    "secondary_languages": [
+      "python"
+    ]
+  },
+  "staff_mail_mirror": "c:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test\\87/staff_mail.jsonl",
+  "started_unix": 1778570223,
+  "ui_pipeline_hints": [
+    "architect_planning",
+    "swarm_execution",
+    "output_verification",
+    "executive_meetings",
+    "composed_review_cycles",
+    "composed_test_cycles",
+    "docs_packaging"
+  ],
+  "user_brief": "Headless CI verification brief extend repo smoke coverage with minimal HTTP echo server and structured logging"
+}

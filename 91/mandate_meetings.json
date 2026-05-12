@@ -1,0 +1,35 @@
+{
+  "created_unix": 1778577782,
+  "format": "neon_mandate_meetings_v1",
+  "phases": [
+    {
+      "parse_ok": true,
+      "parsed": {
+        "ceo_summary": "We're hardening the wireless stability of the wireless by automating the smoke tests to ensure our customers get a flawless experience.",
+        "constraints": [],
+        "cpo_summary": "A streamlined, low-overhead utility that provides deterministic verification of network availability via structured logging.",
+        "modality": "cli_tool",
+        "rationale": "The requirement specifies a headless CI verification utility with an HTTP echo server, which is best implemented as a lightweight command-line tool to be orchestrated by existing CI scripts."
+      },
+      "phase": "demand_modality",
+      "raw": "{\n\"modality\": \"cli_tool\",\n\"rationale\": \"The requirement specifies a headless CI verification utility with an HTTP echo server, which is best implemented as a lightweight command-line tool to be orchestrated by existing CI scripts.\",\n\"constraints\": [\n\"Must operate entirely headless without GUI dependencies\",\n\"Implement a minimal HTTP echo endpoint for connectivity verification\",\n\"Implement structured logging (JSON format) for machine-readability in CI logs\",\n\"Must be compatible with the existing .\\scripts\\run-smoke-tests.ps1 or similar CI workflows\",\n\"Minimal footprint to ensure rapid startup and teardown during smoke tests\"\n],\n\"ceo_summary\": \"We're hardening the wireless stability of the wireless by automating the smoke tests to ensure our customers get a flawless experience.\",\n\"cpo_summary\": \"A streamlined, low-overhead utility that provides deterministic verification of network availability via structured logging.\"\n}"
+    },
+    {
+      "parse_ok": true,
+      "parsed": {
+        "build_notes": "Integrate as a new target in the existing CMake build system; compile as a standalone CLI utility via build.bat; ensure structured logging outputs to stdout for CI capture.",
+        "cto_summary": "A lean C++20 implementation using a lightweight socket wrapper is the only way to ensure this doesn't pollute the VRAM governor's headroom during smoke tests.",
+        "primary_language": "cpp",
+        "risks": [
+          "Port contention in multi-tenant CI environments",
+          "Ensuring minimal footprint to avoid interference with system resources"
+        ],
+        "secondary_languages": [
+          "powershell"
+        ]
+      },
+      "phase": "stack_choice",
+      "raw": "{\n\"primary_language\": \"cpp\",\n\"secondary_languages\": [\"powershell\"],\n\"build_notes\": \"Integrate as a new target in the existing CMake build system; compile as a standalone CLI utility via build.bat; ensure structured logging outputs to stdout for CI capture.\",\n\"risks\": [\"Port contention in multi-tenant CI environments\", \"Ensuring minimal footprint to avoid interference with system resources\"],\n\"cto_summary\": \"A lean C++20 implementation using a lightweight socket wrapper is the only way to ensure this doesn't pollute the VRAM governor's headroom during smoke tests.\"\n}"
+    }
+  ]
+}

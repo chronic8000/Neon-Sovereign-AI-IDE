@@ -1,0 +1,36 @@
+{
+  "created_unix": 1778530998,
+  "format": "neon_mandate_meetings_v1",
+  "phases": [
+    {
+      "parse_ok": false,
+      "parsed": {
+        "ceo_summary": "",
+        "constraints": [],
+        "cpo_summary": "",
+        "modality": "other",
+        "rationale": "parse_fallback"
+      },
+      "phase": "demand_modality",
+      "raw": "{\n\"modality\": \"cli_tool\",\n\"rationale\": \"A headless CLI utility is the most efficient way to integrate into a CI pipeline, allowing for the transient deployment of an echo server and the generation of machine-readable logs for automated verification.\",\n\"constraints\": [\n\"Implement structured JSON logging for seamless CI log parsing\",\n\"HTTP echo server must be lightweight with minimal memory overhead\",\n\"Must be compatible with existing .\\scripts\\run-smoke-ci.ps1 execution flow\",\n\"No external runtime dependencies to ensure rapid container/VM boot times\",\n\"Include configurable timeouts and port assignments to avoid CI environment collisions\"\n],\n\"ceo_summary\": \"We are hardening our deployment pipeline by introducing deterministic network verification to eliminate false positives in our smoke tests.\",\n\"cpo_summary\": \"The tool will provide a lean, observable endpoint to validate connectivity and payload integrity during the CI phase.\"\n}"
+    },
+    {
+      "parse_ok": true,
+      "parsed": {
+        "build_notes": "Integrate via CMake as a standalone utility target; leverage existing build.bat for MSVC environment; ensure structured logs output to stdout/file for CI parsing.",
+        "cto_summary": "Implementing a lightweight C++20 headless echo server to extend CI smoke coverage with high-performance, structured verification.",
+        "primary_language": "cpp",
+        "risks": [
+          "Port availability in headless CI environments",
+          "Dependency bloat for a minimal echo server"
+        ],
+        "secondary_languages": [
+          "powershell",
+          "python"
+        ]
+      },
+      "phase": "stack_choice",
+      "raw": "{\"primary_language\":\"cpp\",\n \"secondary_languages\":[\"powershell\", \"python\"],\n \"build_notes\":\"Integrate via CMake as a standalone utility target; leverage existing build.bat for MSVC environment; ensure structured logs output to stdout/file for CI parsing.\",\n \"risks\":[\"Port availability in headless CI environments\", \"Dependency bloat for a minimal echo server\"],\n \"cto_summary\":\"Implementing a lightweight C++20 headless echo server to extend CI smoke coverage with high-performance, structured verification.\"}"
+    }
+  ]
+}

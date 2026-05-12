@@ -1,0 +1,2 @@
+{"extracted_len":0,"format":"neon_dag_malform_v1","kind":"architect_dag_exception","raw_len":5114,"unix_ts":1778576113,"what":"No JSON found"}
+{"format":"neon_dag_malform_v1","kind":"architect_total_failure_no_json_no_fence","raw_len":5114,"unix_ts":1778576113}
