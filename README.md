@@ -81,6 +81,16 @@ Intelligence begins with C++ algorithms before any LLM is invoked:
 *   **Context Vault**: Persistent grounding. Drag-and-drop documentation and diagrams directly into the IDE to persistently ground the swarm's reasoning.
 *   **BM25 SQLite Memory**: Near-O(1) retrieval of historical project fixes and toolchain quirks.
 
+### DSCE: Deterministic Software Cognition Engine
+Neon’s swarm is convergent because the control-plane is deterministic. LLMs are **consumers** of canonical state, not the source of truth.
+
+Core invariants:
+
+*   **Sovereign Semantic Spine (SSS)**: Tree-sitter-backed semantic graph with **stable semantic IDs** (not byte offsets). The swarm can query/locate semantic nodes deterministically and persist snapshots into the ledger (`ASTNodes`, `SemanticGraph`).
+*   **Contract epochs + deterministic arbitration**: interface conflicts are resolved by deterministic rules (DAG depth, centrality, tie → Architect). Epochs are tracked so Developers can rebase instead of thrashing.
+*   **Observer safety layer**: a read-only role that computes mutation risk and can place tasks on hold / escalate when blast radius is high.
+*   **Causal Ledger**: recurring compiler/linker incidents are upserted and retrievable by error code (e.g. `LNK2019`, `C2146`) so repair prompts start from proven fixes.
+
 ### Project playbook (`ledger.db` / `ProjectMetadata`)
 
 Neon persists operator-facing “vital facts” in SQLite (`ProjectLedger` → table **`ProjectMetadata`**, key/value, scoped by `project_uuid`; the default workspace often uses an empty UUID). **`AIGateway`** injects non-empty keys into **BUILD / DEBUG** prompts and **`prompt_with_system`** so local models see the same facts as your team.
