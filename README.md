@@ -1,5 +1,3 @@
-**UPDATE: Added folder 93 from smoke-test 93. Check out "smoke_test_swarm.log" and "smoke-trace.txt" and some of the code it has been outputting. Please remember this log is very early and doesn't even have all features enabled yet. This is complicated! Design has been going on about 3 months so far with a lot of research and development done. Screenshots will be included too soon and I will update more when I get a full smoke-test completed. I am not releasing AI slop. This has been a battle to get this far. Be kind!**
-
 # Neon Sovereign: The Universal Engineering Workstation
 
 **Neon Sovereign** is a high-performance, fully native **C++20 AI-powered IDE** built from first principles. It is not a chat assistant, a copilot, or a plugin. It is a **Fully Autonomous Execution Pipeline** designed to operate as a deterministic software house.
@@ -107,7 +105,7 @@ Neon persists operator-facing “vital facts” in SQLite (`ProjectLedger` → t
 Optional writes from MCP: set **`NEON_LEDGER_MCP_ALLOW_WRITE=1`** before starting the server to enable `ledger_set_metadata` (otherwise read-only).
 
 ### 🔌 Local Neural Operator (Offline LLM, Cursor-Class Loop)
-
+has been 
 Neon Sovereign is built to be a **sovereign workstation**: weights run **on your machine** (see [Provision Neural Weights](#provision-neural-weights)), not rented from a vendor API. That is not a compromise—it is the architectural point: **your context never leaves the box**, and the swarm still behaves like a serious agent product, not a sidebar chat.
 
 **Orthogonal audits**: the **Logic** model (Gemma-4–class for architecture and codegen) and the **Sentinel / Speed** model used for critique and fast repairs must be **different families**—by doctrine **Qwen for Sentinel**, never a second Gemma-4 alongside the core (see provisioning above).
@@ -295,6 +293,16 @@ Neon Sovereign is **air-gapped by default**. You own the weights.
 
 Configure tags in **`config/neural.toml`** (and persisted UI JSON). For **Ollama tag** mode, **`enforce_model_pairing`** in **`config_manager.cpp`** refuses **Gemma-4 + Gemma-4** Logic/Sentinel pairs and rewrites Sentinel to **`qwen2.5-coder:7b-q5_k_m`**. Local **`.gguf` paths** are never rewritten automatically (mixed layouts stay operator-controlled).
 
+**VRAM tier hints (mid-2026 open weights, operator overrides via env):**
+
+| VRAM (dedicated) | Logic / Architect (`SOVEREIGN_LOGIC_MODEL`) | Speed / micro-edits (`SOVEREIGN_SPEED_MODEL`) |
+| :--- | :--- | :--- |
+| **&lt; 12 GB** | `gemma4:e4b-it-q4_K_M` or `qwen3:8b` (provisioner default) | `qwen2.5-coder:1.5b` or `qwen3:8b` |
+| **12–20 GB** | `qwen3.6:27b-q4_K_M` or `gemma4:26b-a4b` MoE | `qwen2.5-coder:7b-q5_k_m` |
+| **≥ 20 GB** | `qwen3.6:27b-q4_K_M` (Architect DAG, deep planning) | `qwen2.5-coder:7b-q5_k_m` or `gemma4:e4b-it-q4_K_M` for bracket/LSP repairs |
+
+Use **`SovereignProvisioner`** + **`SOVEREIGN_LOGIC_MODEL` / `SOVEREIGN_SPEED_MODEL`**—do not hardcode tags in prompts. Reasoning-heavy Architect work benefits from larger Qwen 3.x / DeepSeek-R1–class tags when VRAM allows; Speed tier should stay a **different family** (Qwen coder) for peer/Sentinel and inner ReAct repairs.
+
 **Gateway concurrency** (**`max_concurrent_agents`**, default **2**) is a separate knob from VRAM sizing—it limits overlapping inference workers but does not replace tier selection; tune it in settings when your GPU keeps up or struggles.
 
 ---
@@ -318,13 +326,16 @@ Tier‑1 remains native **C/C++** / **Rust** in-repo; for **Python**, **Node**, 
 .\Neon-Sovereign.exe smoke-test "Your engineering brief here"
 .\Neon-Sovereign.exe smoke-test brief "Your engineering brief here"
 .\Neon-Sovereign.exe smoke-test full "Your engineering brief here"
+.\Neon-Sovereign.exe smoke-test --brief-file .\path\to\brief.txt
 ```
 
 The `brief` / `full` tokens only select the argv shape; they share the same pipeline and validation.
 
+Use **`--brief-file`** when the brief contains characters that are awkward in PowerShell (for example `>` in thresholds) or when a script generates the text. Prefer saving the file as **UTF-8** (with or without BOM). The harness also normalizes **UTF-16 LE/BE** (with BOM) and **UTF-16 LE without BOM** for typical ASCII-heavy briefs so `user_brief` in **`smoke_manifest.json`** stays valid UTF-8.
+
 The brief must be **substantive**: rejected if fewer than **3 words** or fewer than **12** non-whitespace characters (prevents meaningless “success” on noise).
 
-**Headless defaults (integrity profile):** smoke-test sets **`SOVEREIGN_LOGIC_MODEL`** / **`SOVEREIGN_SPEED_MODEL`** from **`SovereignProvisioner`** when unset, **`SOVEREIGN_SDK_SINGLE_SHOT=1`**, and leaves the Crucible **peer gate on** (same default as the GUI). After the DAG completes, the harness runs a **project integration gate** (static preflight, **`cmake` configure/link**, optional **`scripts/verify_*.sh`**) before **SUCCESS**. Set **`SOVEREIGN_SMOKE_FAST=1`** to restore the older velocity profile (peer gate off, no integration link, lighter shadow checks). **`smoke-test full`** sets **`SOVEREIGN_SMOKE_FULL_PIPELINE=1`** (alias for the integrity peer preflight). See **`smoke_trace.txt`**: **`smoke_integrity_profile`**, **`integration_gate_enabled`**, **`SOVEREIGN_PEER_GATE=`**, and **`resolved_crucible_peer_gate`**.
+**Headless defaults (integrity profile):** smoke-test sets **`SOVEREIGN_LOGIC_MODEL`** / **`SOVEREIGN_SPEED_MODEL`** from **`SovereignProvisioner`** when unset, leaves **`SOVEREIGN_SDK_SINGLE_SHOT` unset** so Developers use the full **`planReact`** tool loop (multi-pass line edits), and leaves the Crucible **peer gate on** (same default as the GUI). After the DAG completes, the harness runs a **project integration gate** (static preflight, **`cmake` configure/link**, optional **`scripts/verify_*.sh`**) before **SUCCESS**. Set **`SOVEREIGN_SMOKE_FAST=1`** for the velocity profile (peer gate off, no integration link, lighter shadow checks, and **`SOVEREIGN_SDK_SINGLE_SHOT=1`** when not already set). Set **`SOVEREIGN_SDK_SINGLE_SHOT=1`** explicitly if you want single-shot throughput without fast mode. **`smoke-test full`** sets **`SOVEREIGN_SMOKE_FULL_PIPELINE=1`** (alias for the integrity peer preflight). See **`smoke_trace.txt`**: **`smoke_integrity_profile`**, **`integration_gate_enabled`**, **`SOVEREIGN_PEER_GATE=`**, and **`resolved_crucible_peer_gate`**.
 
 **CI smoke profile:** Example env and a wrapper script live in **[`scripts/smoke-ci.env.example`](scripts/smoke-ci.env.example)** and **[`scripts/run-smoke-ci.ps1`](scripts/run-smoke-ci.ps1)**. Use **`-Fast`** for **`SOVEREIGN_SMOKE_FAST=1`** when you need the legacy fast path on tight VRAM tiers.
 
@@ -364,10 +375,97 @@ Runtime counters aggregate **Crucible** inner-loop activity (peer gate, Sentinel
 - **`[SMOKE_VERDICT_PREVIEW]`** in **`smoke_test_swarm.log`** (every **`SOVEREIGN_SMOKE_AUDIT_INTERVAL_SEC`**, default **5**) shows **`non_seed_completed`** before shutdown so an empty Architect DAG is obvious without reading NDJSON.
 - If **`smoke_test_swarm.log`** is **0 bytes** but **`smoke_trace.txt`** exists, the run was **interrupted** (reboot, kill, crash) during **`run_executive_meetings()`** *before* the first swarm poll — the log is now **opened with an immediate header + flush**; set **`SOVEREIGN_SKIP_EXEC_MEETINGS=1`** to skip that LLM phase in CI and avoid long pre-swarm windows.
 - **VRAM / Ollama wedging:** the Sentinel **barrier** closes neural accept and waits for idle before **`evict_from_vram` / `lock_in_vram`**. Headless smoke defaults **`SOVEREIGN_VRAM_SWAP_NEURAL_IDLE_SEC=600`** so a hung **`/api/chat`** worker cannot block the swap forever; **`SOVEREIGN_SMOKE_SKIP_VRAM_BARRIER=1`** skips the evict+lock entirely (faster, less VRAM discipline). Hot-swap **`/api/generate`** calls now use **WinHTTP receive timeouts** so unload/lock cannot hang indefinitely on TCP.
+- **Single-model smoke residency (24 GB class):** integrity CI via **`scripts/run-smoke-ci.ps1`** sets **`SOVEREIGN_DUAL_RESIDENCY=0`** so only **Logic** stays in VRAM at startup; **Speed** loads on demand via **`prepare_vram_for_model`** + swarm barrier. Opt in to dual pins with **`SOVEREIGN_DUAL_RESIDENCY=1`** (live probe must succeed before **`SOVEREIGN_SMOKE_SKIP_VRAM_BARRIER=1`**). **`SOVEREIGN_VRAM_PIN_LOGIC=1`** (default on in smoke) swaps back to Logic after Speed-tier calls. **`SOVEREIGN_DUAL_RESIDENCY_HEADROOM_GIB`** (default **4** on ≤28 GB cards) tightens dual-feasibility math in **`neural_vram_budget.cpp`**.
 - **`pipeline_telemetry.json`** is overwritten on each **`SOVEREIGN_SMOKE_AUDIT_INTERVAL_SEC`** audit with **`"format": "neon_pipeline_telemetry_partial_v1"`** (and on swarm-loop exception before exit) so killed or partial runs keep counters. At **`=== SIMULATION TERMINAL ===`**, the harness overwrites it again with **`"format": "neon_pipeline_telemetry_final_v1"`** and logs the path.
-- **Cross-run memory:** high-signal smoke failures and selected **`smoke_debug`** events are appended to **`ledger.db`** **`KnowledgeBase`** (problem prefix **`[smoke]`**). The next smoke run prepends a capped block (**`CROSS_RUN_SMOKE_MEMORY`**) to the swarm mandate from **`search_historical_fixes("smoke")`**.
+- **Cross-run memory:** high-signal smoke failures and selected **`smoke_debug`** events are appended to **`ledger.db`** **`KnowledgeBase`** (problem prefix **`[smoke]`**). Isolated runs under **`smoke-test/<id>/`** (**`SOVEREIGN_SMOKE_ARCHIVE`**) **do not** inject broad prior-run BM25 gossip into the swarm mandate unless you opt in with **`SOVEREIGN_SMOKE_CROSS_RUN_MEMORY=1`**. When enabled, **`main.cpp`** prepends a capped **`CROSS_RUN_SMOKE_MEMORY`** block from **`search_historical_fixes("smoke")`** (2048 chars in smoke archive mode).
+
+### Vault memory tiers (ledger.db playbook)
+
+Neon stores durable operator memory in **`ledger.db`**: **`ProjectMetadata`** (short keys) and **`KnowledgeBase`** (longer lessons). Swarm/SDK recall uses tiered injection — not a separate MCP product.
+
+| Tier | Where | What |
+| :--- | :--- | :--- |
+| **L0** | **`AIGateway`** (`append_vault_memory_stack`) | Compact playbook keys: **`windows_build_command`**, **`smoke_command`**, **`build_folder`**, **`storage_root_hint`**, **`script_mappings`**. |
+| **L1** | Gateway + capped preamble | Essential story: top **`KnowledgeBase`** rows via FTS + semantic **RRF** (`knowledge_search_rrf` in **`vault_memory.cpp`**). |
+| **L2** | **`SwarmController`** Developer/Forge prompts | Room-scoped episodic drawers: tags **`room:<repo-relative-path>`**, facets **`facet:read_only_loop`**, **`facet:edit_lines_eof`**, **`vault_run:<smoke-id>`**. Block header **`=== VAULT L2 RECALL ===`**. |
+| **L3** | ReAct tool **`ledger_recall`** | Deep query: optional **`room`** path merges **`search_vault_room_recall`** + RRF over **`KnowledgeBase`**. |
+
+**Agent layout & observe–act tools**
+
+- Checked-in role/layout spec: **`docs/sovereign/agent-layout.md`** (injected into Architect/Developer prompts; override with **`SOVEREIGN_AGENT_LAYOUT_PATH`**).
+- **`dag_peek`**: JSON dependency view for a task (`blocked_by` status, ages, satisfied flags).
+- **`pull_skill`**: load **`skills/<name>/SKILL.md`** (post-smoke synthesis writes under the smoke archive).
+- **`correction_memory.md`**: human export at simulation terminal from **`KnowledgeBase`** + **`CrucibleGateIncidents`**.
+- Env (smoke defaults via **`sovereign_apply_smoke_run_defaults`**): **`SOVEREIGN_HERESY_PROMOTE_AFTER`**, **`SOVEREIGN_REPAIR_REQUIRE_RECALL`**, **`SOVEREIGN_WITNESS_HEADER_STALL_SEC`**, **`SOVEREIGN_SMOKE_SOP_SYNTHESIS`**, **`SOVEREIGN_SDK_OTA_LABELS`**.
+
+**Vault tag conventions** (semicolon-separated in **`KnowledgeBase.tags`**):
+
+- **`smoke`** — episodic smoke incident (BM25 prefix **`[smoke]`** in problem text).
+- **`room:src/Foo.cpp`** — file-scoped recall room (normalized forward slashes).
+- **`facet:<name>`** — failure class for grep/filter (e.g. **`read_only_loop`**, **`thread_safety`**, **`chrono_modern`**, **`resource_leak`**).
+- **`vault_run:190`** — smoke run id when **`SOVEREIGN_SMOKE_ARCHIVE`** is set.
+
+**Environment knobs**
+
+| Variable | Default | Effect |
+| :--- | :--- | :--- |
+| **`SOVEREIGN_SMOKE_CROSS_RUN_MEMORY`** | off when archive set | Inject **`CROSS_RUN_SMOKE_MEMORY`** into swarm mandate from prior smoke rows. |
+| **`SOVEREIGN_SEMANTIC_MEMORY`** | on | Ollama/hash embeddings in **`KnowledgeEmbeddings`**; **`SOVEREIGN_SEMANTIC_MEMORY=0`** disables semantic leg of RRF. |
+| **`SOVEREIGN_VAULT_RRF`** | follows semantic | **`SOVEREIGN_VAULT_RRF=0`** uses first BM25 list only (no reciprocal-rank fusion). |
+| **`SOVEREIGN_VAULT_RRF_K`** | **60** | RRF constant **k** (clamped 1–200). |
+| **`SOVEREIGN_VAULT_RRF_W_FTS`** | **1.0** | FTS leg weight in weighted RRF (paper Stage 8). |
+| **`SOVEREIGN_VAULT_RRF_W_VEC`** | **1.0** | Vector leg weight in weighted RRF. |
+| **`SOVEREIGN_VAULT_NOVELTY_GATE`** | on | Gzip novelty gate for **`smoke`/`gossip`/`crucible`** tags (paper Stage 1). |
+| **`SOVEREIGN_VAULT_NOVELTY_MIN`** | **0.12** | Minimum **n_t** to insert episodic rows. |
+| **`SOVEREIGN_VAULT_TEMPORAL_BOOST`** | **1.3** | RRF multiplier for **`vault_run:<current>`** or previous run (paper Stage 9). |
+| **`SOVEREIGN_SQLITE_VEC_PATH`** | unset | Path to **sqlite-vec** extension DLL/SO; enables **`KnowledgeVec`** KNN SQL. |
+| **`SOVEREIGN_SQLITE_VEC`** | follows path | Set **0** to force C++ cosine fallback. |
+
+**Retrieval pipeline (True Memory / arXiv:2605.04897):** ingest novelty gate → FTS5 BM25 + dense vectors → **weighted RRF** `w/(k+rank)` → temporal **`vault_run`** boost → L0–L3 injection. No Python cross-encoders.
+
+**sqlite-vec:** optional. When **`SOVEREIGN_SQLITE_VEC_PATH`** loads **vec0**, dense search uses SQL `MATCH … AND k = ?` on **`KnowledgeVec`**; otherwise full-table cosine on **`KnowledgeEmbeddings`** remains the fallback.
+
+**MCP ledger tools** (optional): **`tools/ledger-mcp/README.md`** — same **`ledger.db`**; agents can **`ledger_get_metadata`** / **`ledger_search_knowledge`** when the MCP server is configured.
 
 Interactive GUI sessions do not reset counters automatically; call **`pipeline_telemetry_reset()`** when you need a clean baseline (or rely on smoke for isolated measurement).
+
+### Swarm throughput tuning (cheat sheet)
+
+These knobs affect how aggressively the swarm **polls for work**, how many **heavy** Architect/Developer tasks can be **checked out** at once, and how many **concurrent neural sessions** the gateway allows. Defaults favor stability on a single GPU; raise them when you have headroom.
+
+| Goal | Knob | Notes |
+| :--- | :--- | :--- |
+| Faster dequeue when the blackboard still has open tasks | **`SOVEREIGN_SWARM_IDLE_POLL_CAP_MS`** | Clamped **2–80** ms cap on idle backoff while **`has_active_work()`** is true (`sovereign_env.cpp`). Defaults **12** (integrity) / **6** (fast smoke). Lower = hungrier polling, slightly more CPU wakeups. |
+| More Architect/Developer tasks **Claimed** concurrently | **`SOVEREIGN_HEAVY_NEURAL_LANE_CAP`** | Default **2** (`blackboard.cpp` / `checkout_task`). Increase only if VRAM and Ollama can sustain more parallel codegen. |
+| More concurrent **Ollama / SDK inference slots** | Startup + cluster | After **`configure_ollama_fabric`**, **`main.cpp`** sets **`AIGateway::set_max_concurrency`** to at least **`max(2, fabric replicas, cluster.swarm.ollama_num_parallel)`** (capped at 32). **`apply_neural_cluster_ollama_env`** also sets **`OLLAMA_NUM_PARALLEL`** from the cluster plan (`neural_cluster_topology.cpp`). |
+| Windows C++ shadow compile without a Developer shell | **`SOVEREIGN_VCVARS_BAT`**, **`SOVEREIGN_SHADOW_CPP_TOOLCHAIN`** | Point **`SOVEREIGN_VCVARS_BAT`** at **`vcvars64.bat`**, or set **`wsl`** / **`msvc`** / **`auto`** for toolchain selection (`tool_registry.cpp`). |
+| Velocity over single-TU compile | **`SOVEREIGN_SHADOW_COMPILE=0`** | Disables Crucible compile shadow; LSP may still run in integrity profile. |
+| Disable Crucible **batch** peer/Sentinel staging | **`SOVEREIGN_CRUCIBLE_BATCH_AUDIT=0`** | When unset, batch audit is **on** in integrity mode (`sovereign_env.cpp`). |
+
+### Stopping Neon Sovereign and rebuilding (Windows)
+
+Canonical build from repo root: **`.\build.bat`** (loads MSVC via **`vcvars64.bat`**, fixed CMake tree, Rust/Corrosion; see repository **`build.bat`**). If link fails with **`LNK1104: cannot open … Neon-Sovereign.exe`**, the binary is almost always still **running or locked**.
+
+1. Exit the IDE normally, or from **PowerShell**:
+
+```powershell
+Get-Process -Name "Neon-Sovereign" -ErrorAction SilentlyContinue | Stop-Process -Force
+```
+
+2. If you run a **managed** Ollama for Neon and it holds model locks, you can stop it the same way (adjust if you rely on system Ollama on port **11434**):
+
+```powershell
+Get-Process -Name "ollama" -ErrorAction SilentlyContinue | Stop-Process -Force
+```
+
+3. Rebuild from **`neon-vs-src`**:
+
+```powershell
+Set-Location "C:\path\to\neon-vs-src"
+.\build.bat
+```
+
+Then launch the next **`smoke-test`** or GUI session. Closing stragglers before **`build.bat`** avoids wedged links and stale in-memory state when iterating toward reliable app-generation runs.
 
 ### Full environment list (`smoke_trace.txt` parity)
 
@@ -404,7 +502,8 @@ The first lines of **`smoke_trace.txt`** are stable forensic fields and commenta
 | :--- | :--- | :--- | :--- |
 | **`SOVEREIGN_LOGIC_MODEL`** | From **`config/neural.toml`** via **`ConfigManager`**; headless smoke sets from **`SovereignProvisioner`** when unset | Ollama tag string | Overrides persisted Logic-tier model on startup (`config_manager.cpp`). |
 | **`SOVEREIGN_SPEED_MODEL`** | From **`config/neural.toml`**; headless smoke sets from provisioner when unset | Ollama tag string | Overrides Speed-tier / Sentinel routing model on startup. |
-| **`SOVEREIGN_SDK_SINGLE_SHOT`** | off (`0` / unset) | `0` / `1` (any non-empty, non-`0` enables) | **`autonomous_agent_impl`**: one-shot codegen vs full **`planReact`**. Smoke-test **forces `1`** after setting models. |
+| **`SOVEREIGN_SDK_SINGLE_SHOT`** | off (`0` / unset) | `0` / `1` (any non-empty, non-`0` enables) | **`autonomous_agent_impl`**: one-shot codegen vs full **`planReact`**. Headless **`smoke-test`** leaves it unset (ReAct); **`SOVEREIGN_SMOKE_FAST=1`** (or **`scripts/run-smoke-ci.ps1 -Fast`**) sets **`1`** when unset. |
+| **`SOVEREIGN_SDK_AUTO_VERIFY_AFTER_EDIT`** | **on** (unset) | `0` / `false` / `off` disables | After successful **`edit_lines`** / **`fuzzy_patch`** / **`replace_ast_node`** on implementation TUs, SDK auto-runs **`verify_translation_unit`** and blocks **FINISH** until compile checks pass (`autonomous_agent_impl.cpp`). |
 | **`SOVEREIGN_REACT_MAX_STEPS`** | `24` | `4`–`128` | Max Reason+Act iterations when single-shot is off. |
 | **`SOVEREIGN_REPO_ROOT`** | (derive from repo detection beside `startup.log`) | filesystem path | Parent directory for **`smoke-test/<id>/`** (`main.cpp`). |
 | **`SOVEREIGN_SMOKE_TIMEOUT_SEC`** | `3600` | `300`–`14400` | Outer poll/wait budget for the smoke harness. |
@@ -412,6 +511,9 @@ The first lines of **`smoke_trace.txt`** are stable forensic fields and commenta
 | **`SOVEREIGN_PROMPT_TIMEOUT_SEC`** | `1800` | `30`–`7200` | Wall-clock cap for **`AIGateway::prompt()`** (SDK string **`chat`** → WinHTTP **`call_winhttp_messages`**). Prevents infinite **`cv.wait`** when Ollama streams slowly or stalls; single-shot smoke (**`SOVEREIGN_SDK_SINGLE_SHOT=1`**) uses this path (`gateway.cpp`). |
 | **`SOVEREIGN_DEVELOPER_SDK_TIMEOUT_SEC`** | prompt **`+ 180`** | `60`–`7300` (clamped to **≥ prompt + 30**) | Outer bound for Developer **`blockingWait(sdk_worker->run(...))`**. Should exceed **`SOVEREIGN_PROMPT_TIMEOUT_SEC`** so the inner prompt timeout fires first; on outer timeout the task fails and the async SDK join is **detached** so the swarm thread does not block forever (`swarm_controller.cpp`). |
 | **`SOVEREIGN_CRUCIBLE_AUTO_REPAIR_ROUNDS`** | `8` | `1`–`32` | Inner **`submit_patch`** repair rounds before a swarm retry (`crucible.cpp`). |
+| **`SOVEREIGN_CRUCIBLE_BATCH_AUDIT`** | **on** in integrity (unset) | `0` / `false` / `off` / `no` disables | Batch peer/Sentinel path for staged patches (`sovereign_env.cpp`, `crucible.cpp`). Off in **`SOVEREIGN_SMOKE_FAST=1`**. |
+| **`SOVEREIGN_SWARM_IDLE_POLL_CAP_MS`** | **12** (integrity) / **6** (fast smoke) | `2`–`80` | Max milliseconds between swarm idle polls while the blackboard still has open work (`sovereign_env.cpp`, `swarm_controller.cpp`). |
+| **`SOVEREIGN_HEAVY_NEURAL_LANE_CAP`** | `2` | `1`–`8` | Max Architect/Developer tasks in **Claimed** / **InProgress** / **PeerReview** / **ShadowCompile** counted toward checkout (`blackboard.cpp`). |
 | **`SOVEREIGN_PEER_GATE`** | **on** (unset) | `0` / `false` / `off` / `no` / numeric **0** disables; **`1` / `true` / `on` / `yes`** enables | Speed-tier peer review before Sentinel (`sovereign_env.cpp`, `crucible.cpp`). **`SOVEREIGN_SMOKE_FAST=1`** forces **`0`** in headless smoke. |
 | **`SOVEREIGN_SMOKE_FAST`** | off (`0` / unset) | `1` / `true` / `on` / `yes` | Velocity smoke profile: disables peer gate, integration link, and heavy shadow compile (`sovereign_env.cpp`, `main.cpp`). |
 | **`SOVEREIGN_INTEGRATION_GATE`** | **on** in integrity profile | `0` / `false` / `off` / `no` disables | DAG-complete **`cmake` configure/link** + optional verify scripts before smoke **SUCCESS** (`integration_gate.cpp`). Off when **`SOVEREIGN_SMOKE_FAST=1`**. |
