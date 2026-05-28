@@ -1,0 +1,3 @@
+C:/Users/chron/CURSOR-PROJECTS/AI-IDE/neon-vs-src/smoke-test/290/build/CMakeFiles/NeonSmokeApp.dir
+C:/Users/chron/CURSOR-PROJECTS/AI-IDE/neon-vs-src/smoke-test/290/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/chron/CURSOR-PROJECTS/AI-IDE/neon-vs-src/smoke-test/290/build/CMakeFiles/ZERO_CHECK.dir

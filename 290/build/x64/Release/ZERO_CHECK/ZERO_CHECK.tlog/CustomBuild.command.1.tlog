@@ -1,0 +1,10 @@
+^C:\USERS\CHRON\CURSOR-PROJECTS\AI-IDE\NEON-VS-SRC\SMOKE-TEST\290\BUILD\CMAKEFILES\A59276C49AA4FC61B71FADCA4D190474\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/chron/CURSOR-PROJECTS/AI-IDE/neon-vs-src/smoke-test/290 -BC:/Users/chron/CURSOR-PROJECTS/AI-IDE/neon-vs-src/smoke-test/290/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/chron/CURSOR-PROJECTS/AI-IDE/neon-vs-src/smoke-test/290/build/NeonSmokeApp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

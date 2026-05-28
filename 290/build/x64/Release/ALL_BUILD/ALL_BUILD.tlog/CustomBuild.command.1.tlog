@@ -1,0 +1,10 @@
+^C:\USERS\CHRON\CURSOR-PROJECTS\AI-IDE\NEON-VS-SRC\SMOKE-TEST\290\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/chron/CURSOR-PROJECTS/AI-IDE/neon-vs-src/smoke-test/290 -BC:/Users/chron/CURSOR-PROJECTS/AI-IDE/neon-vs-src/smoke-test/290/build --check-stamp-file C:/Users/chron/CURSOR-PROJECTS/AI-IDE/neon-vs-src/smoke-test/290/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

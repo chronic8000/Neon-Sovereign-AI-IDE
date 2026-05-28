@@ -1,0 +1,14 @@
+=== Neon integration gate ===
+workspace=C:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\290
+CMAKE NORMALIZE: smoke_integration_normalize (project=NeonSmokeApp, sources=2)
+PREFLIGHT OK
+$ cd C:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\290 && cmake -S . -B build
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/chron/CURSOR-PROJECTS/AI-IDE/neon-vs-src/smoke-test/290/build
+$ cd C:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\290 && cmake --build build --config Release
+MSBuild version 17.14.40+3e7442088 for .NET Framework
+
+  CounterApp.cpp
+  NeonSmokeApp.vcxproj -> C:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\290\build\Release\NeonSmokeApp.exe

@@ -1,0 +1,45 @@
+{
+  "created_unix": 1779979086,
+  "format": "neon_mandate_meetings_v1",
+  "phases": [
+    {
+      "parse_ok": true,
+      "parsed": {
+        "ceo_summary": "We are delivering a lean, high-performance Win32 native application that demonstrates core system integration without the overhead of modern frameworks.",
+        "constraints": [
+          "Must use C++20 standard.",
+          "Must implement WinMain entry point.",
+          "Must use RegisterClassEx, CreateWindowEx, and standard message loop.",
+          "Must link against user32 and gdi32.",
+          "Directory structure: include/CounterApp.hpp, src/CounterApp.cpp, src/main.cpp, root CMakeLists.txt.",
+          "CMakeLists.txt must set C++20 and target_include_directories for include/.",
+          "Headers must use PascalCase.",
+          "No tests included.",
+          "Self-contained implementation.",
+          "Left-click in client area must increment an integer counter displayed in the window."
+        ],
+        "cpo_summary": "The code will be strictly organized with PascalCase headers and a clean separation of concerns between the window logic and the entry point.",
+        "modality": "desktop_app",
+        "rationale": "The brief explicitly requests a Win32 C++20 application with a graphical window, message loop, and direct OS API usage (user32, gdi32), which defines the desktop_app modality."
+      },
+      "phase": "demand_modality",
+      "raw": "{\n  \"modality\": \"desktop_app\",\n  \"rationale\": \"The brief explicitly requests a Win32 C++20 application with a graphical window, message loop, and direct OS API usage (user32, gdi32), which defines the desktop_app modality.\",\n  \"constraints\": [\n    \"Must use C++20 standard.\",\n    \"Must implement WinMain entry point.\",\n    \"Must use RegisterClassEx, CreateWindowEx, and standard message loop.\",\n    \"Must link against user32 and gdi32.\",\n    \"Directory structure: include/CounterApp.hpp, src/CounterApp.cpp, src/main.cpp, root CMakeLists.txt.\",\n    \"CMakeLists.txt must set C++20 and target_include_directories for include/.\",\n    \"Headers must use PascalCase.\",\n    \"No tests included.\",\n    \"Self-contained implementation.\",\n    \"Left-click in client area must increment an integer counter displayed in the window.\"\n  ],\n  \"ceo_summary\": \"We are delivering a lean, high-performance Win32 native application that demonstrates core system integration without the overhead of modern frameworks.\",\n  \"cpo_summary\": \"The code will be strictly organized with PascalCase headers and a clean separation of concerns between the window logic and the entry point.\"\n}"
+    },
+    {
+      "parse_ok": true,
+      "parsed": {
+        "build_notes": "CMake 3.15+; C++20 standard; target_include_directories for include/; link user32 and gdi32; no tests; Windows Release build via build.bat",
+        "cto_summary": "Geoff confirms the VRAM governor is stable for this lightweight Win32 workload, allowing full C++20 optimization without memory pressure.",
+        "primary_language": "cpp",
+        "risks": [
+          "LSP verification timeouts on shadow includes (Vrammonitor.hpp) may delay CI feedback",
+          "Win32 message loop must correctly handle WM_PAINT to reflect counter state without flicker",
+          "PascalCase header naming must be strictly enforced to avoid shadow guard failures"
+        ],
+        "secondary_languages": []
+      },
+      "phase": "stack_choice",
+      "raw": "{\n \"primary_language\": \"cpp\",\n \"secondary_languages\": [],\n \"build_notes\": \"CMake 3.15+; C++20 standard; target_include_directories for include/; link user32 and gdi32; no tests; Windows Release build via build.bat\",\n \"risks\": [\n  \"LSP verification timeouts on shadow includes (Vrammonitor.hpp) may delay CI feedback\",\n  \"Win32 message loop must correctly handle WM_PAINT to reflect counter state without flicker\",\n  \"PascalCase header naming must be strictly enforced to avoid shadow guard failures\"\n ],\n \"cto_summary\": \"Geoff confirms the VRAM governor is stable for this lightweight Win32 workload, allowing full C++20 optimization without memory pressure.\"\n}"
+    }
+  ]
+}
