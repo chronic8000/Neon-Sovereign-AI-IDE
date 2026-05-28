@@ -1,6 +1,6 @@
-** SMOKE TEST 290 ACTUALLY PRODUCED A WORKING EXE FILE!
+## SMOKE TEST 290 ACTUALLY PRODUCED A WORKING EXE FILE!
 
-Available to download from this repository now - The first smoke-test to produce working code you can open in Visual Studio! **
+## Available to download from this repository now - The first smoke-test to produce working code you can open in Visual Studio!
 
 # Neon Sovereign: The Universal Engineering Workstation
 
