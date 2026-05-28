@@ -1,8 +1,8 @@
-## SMOKE TEST 290 ACTUALLY PRODUCED A WORKING EXE FILE!
+# SMOKE TEST 290 ACTUALLY PRODUCED A WORKING EXE FILE!
 
-# Available to download from this repository now - The first smoke-test to produce working code you can open in Visual Studio!
+## Available to download from this repository now - The first smoke-test to produce working code you can open in Visual Studio!
 
-## Neon Sovereign: The Universal Engineering Workstation
+# Neon Sovereign: The Universal Engineering Workstation
 
 **Neon Sovereign** is a high-performance, fully native **C++20 AI-powered IDE** built from first principles. It is not a chat assistant, a copilot, or a plugin. It is a **Fully Autonomous Execution Pipeline** designed to operate as a deterministic software house.
 
