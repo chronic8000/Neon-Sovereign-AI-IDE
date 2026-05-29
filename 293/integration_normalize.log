@@ -1,0 +1,4 @@
+CMAKE NORMALIZE: diagnostic_compile (project=NeonSmokeApp, sources=2)
+CMAKE NORMALIZE: epic_materialize (project=NeonSmokeApp, sources=2)
+CMAKE NORMALIZE: epic_materialize (project=NeonSmokeApp, sources=2)
+CMAKE NORMALIZE: smoke_epic_release (project=NeonSmokeApp, sources=2)

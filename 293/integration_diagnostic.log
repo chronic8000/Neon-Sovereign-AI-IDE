@@ -1,0 +1,29 @@
+=== Neon integration gate ===
+workspace=C:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\293
+CMAKE NORMALIZE: smoke_integration_normalize (project=NeonSmokeApp, sources=2)
+PREFLIGHT OK
+$ cd C:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\293 && cmake -S . -B build
+-- Building for: Visual Studio 17 2022
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.26200.
+-- The CXX compiler identification is MSVC 19.44.35226.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (5.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/chron/CURSOR-PROJECTS/AI-IDE/neon-vs-src/smoke-test/293/build
+$ cd C:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\293 && cmake --build build --config Release
+MSBuild version 17.14.40+3e7442088 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/chron/CURSOR-PROJECTS/AI-IDE/neon-vs-src/smoke-test/293/CMakeLists.txt
+  main.cpp
+  CounterApp.cpp
+  Generating Code...
+  NeonSmokeApp.vcxproj -> C:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\293\build\Release\NeonSmokeApp.exe
+  Building Custom Rule C:/Users/chron/CURSOR-PROJECTS/AI-IDE/neon-vs-src/smoke-test/293/CMakeLists.txt
+RUNTIME_PROBE: launched NeonSmokeApp.exe exit=-2
+RUNTIME_PROBE OK: process survived 8s (message loop active)
+INTEGRATION GATE PASS

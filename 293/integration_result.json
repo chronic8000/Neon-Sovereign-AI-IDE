@@ -1,0 +1,11 @@
+{
+  "build_log_path": "C:\\Users\\chron\\CURSOR-PROJECTS\\AI-IDE\\neon-vs-src\\smoke-test/293/integration_build.log",
+  "configure_ok": true,
+  "failure_detail": "",
+  "failure_phase": "",
+  "format": "neon_integration_result_v1",
+  "link_ok": true,
+  "overall_ok": true,
+  "static_preflight_ok": true,
+  "verify_ok": true
+}

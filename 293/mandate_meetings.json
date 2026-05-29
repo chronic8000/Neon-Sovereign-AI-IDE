@@ -1,0 +1,42 @@
+{
+  "created_unix": 1780002248,
+  "format": "neon_mandate_meetings_v1",
+  "phases": [
+    {
+      "parse_ok": true,
+      "parsed": {
+        "ceo_summary": "We are delivering a lean, native Windows desktop utility that demonstrates core Win32 capabilities with a clean, modern C++20 structure, aligning with our promise of efficient, self-contained engineering artifacts.",
+        "constraints": [
+          "Must use Win32 API (user32, gdi32) for window creation and message handling.",
+          "Must use C++20 standard.",
+          "File structure: include/CounterApp.hpp, src/CounterApp.cpp, src/main.cpp, root CMakeLists.txt.",
+          "CMakeLists.txt must set C++20 and configure target_include_directories for the include/ folder.",
+          "Headers must use PascalCase naming convention.",
+          "Application must be self-contained with no external dependencies beyond standard Windows libraries.",
+          "No unit tests are to be included.",
+          "Left-click in client area must increment the displayed integer counter."
+        ],
+        "cpo_summary": "The architecture is tidy and standard-compliant, with clear separation of concerns between the application logic, window management, and entry point, ensuring maintainability and a proper 'cup of tea' quality codebase.",
+        "modality": "desktop_app",
+        "rationale": "The brief explicitly requests a Win32 C++20 application with a graphical window (WinMain, RegisterClassEx, CreateWindowEx) and a message loop, which defines a native desktop application. It is not a library, CLI, or web service."
+      },
+      "phase": "demand_modality",
+      "raw": "{\n  \"modality\": \"desktop_app\",\n  \"rationale\": \"The brief explicitly requests a Win32 C++20 application with a graphical window (WinMain, RegisterClassEx, CreateWindowEx) and a message loop, which defines a native desktop application. It is not a library, CLI, or web service.\",\n  \"constraints\": [\n    \"Must use Win32 API (user32, gdi32) for window creation and message handling.\",\n    \"Must use C++20 standard.\",\n    \"File structure: include/CounterApp.hpp, src/CounterApp.cpp, src/main.cpp, root CMakeLists.txt.\",\n    \"CMakeLists.txt must set C++20 and configure target_include_directories for the include/ folder.\",\n    \"Headers must use PascalCase naming convention.\",\n    \"Application must be self-contained with no external dependencies beyond standard Windows libraries.\",\n    \"No unit tests are to be included.\",\n    \"Left-click in client area must increment the displayed integer counter.\"\n  ],\n  \"ceo_summary\": \"We are delivering a lean, native Windows desktop utility that demonstrates core Win32 capabilities with a clean, modern C++20 structure, aligning with our promise of efficient, self-contained engineering artifacts.\",\n  \"cpo_summary\": \"The architecture is tidy and standard-compliant, with clear separation of concerns between the application logic, window management, and entry point, ensuring maintainability and a proper 'cup of tea' quality codebase.\"\n}"
+    },
+    {
+      "parse_ok": true,
+      "parsed": {
+        "build_notes": "Use CMakeLists.txt to define a C++20 executable target. Link user32.lib and gdi32.lib. Set target_include_directories to include/. Ensure Windows subsystem is set for WinMain entry point.",
+        "cto_summary": "We will implement a clean, self-contained Win32 C++20 application using standard CMake practices, ensuring strict separation of concerns between the entry point, window management, and state logic.",
+        "primary_language": "cpp",
+        "risks": [
+          "Win32 API complexity may lead to verbose boilerplate if not encapsulated properly in CounterApp.hpp.",
+          "VRAM monitor shadow failures from previous runs suggest strict adherence to include guards in new headers to prevent LSP timeouts."
+        ],
+        "secondary_languages": []
+      },
+      "phase": "stack_choice",
+      "raw": "{\n  \"primary_language\": \"cpp\",\n  \"secondary_languages\": [],\n  \"build_notes\": \"Use CMakeLists.txt to define a C++20 executable target. Link user32.lib and gdi32.lib. Set target_include_directories to include/. Ensure Windows subsystem is set for WinMain entry point.\",\n  \"risks\": [\n    \"Win32 API complexity may lead to verbose boilerplate if not encapsulated properly in CounterApp.hpp.\",\n    \"VRAM monitor shadow failures from previous runs suggest strict adherence to include guards in new headers to prevent LSP timeouts.\"\n  ],\n  \"cto_summary\": \"We will implement a clean, self-contained Win32 C++20 application using standard CMake practices, ensuring strict separation of concerns between the entry point, window management, and state logic.\"\n}"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chron\CURSOR-PROJECTS\AI-IDE\neon-vs-src\smoke-test\293\build\CMakeFiles\fcfd73630f219b8c388d6473a93f6bb1\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FA7464D0-0E9E-381F-9358-370E155C0D8B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
